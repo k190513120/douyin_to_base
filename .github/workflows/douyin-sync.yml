@@ -66,7 +66,7 @@ jobs:
     - name: Run douyin sync (manual trigger)
       if: github.event_name == 'workflow_dispatch'
       run: |
-        python main.py "${{ github.event.inputs.douyin_url }}" --max-videos "${{ github.event.inputs.max_videos }}"
+        python main.py --url "${{ github.event.inputs.douyin_url }}" --max-videos "${{ github.event.inputs.max_videos }}"
     
     - name: Run douyin sync (API trigger)
       if: github.event_name == 'repository_dispatch'
@@ -76,7 +76,7 @@ jobs:
         if [ -z "$MAX_VIDEOS" ]; then
           MAX_VIDEOS="20"
         fi
-        python main.py "$DOUYIN_URL" --max-videos "$MAX_VIDEOS"
+        python main.py --url "$DOUYIN_URL" --max-videos "$MAX_VIDEOS"
     
     - name: Upload logs
       if: always()
