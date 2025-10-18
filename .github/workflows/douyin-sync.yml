@@ -4,6 +4,14 @@ on:
   # 手动触发
   workflow_dispatch:
     inputs:
+      feishu_table_url:
+        description: '飞书多维表格链接'
+        required: true
+        type: string
+      feishu_auth_token:
+        description: '飞书多维表格授权码'
+        required: true
+        type: string
       douyin_url:
         description: '抖音用户主页URL'
         required: true
@@ -40,7 +48,20 @@ jobs:
       run: |
         echo "FEISHU_APP_ID=${{ secrets.FEISHU_APP_ID }}" >> .env
         echo "FEISHU_APP_SECRET=${{ secrets.FEISHU_APP_SECRET }}" >> .env
-        echo "FEISHU_APP_TOKEN=${{ secrets.FEISHU_APP_TOKEN }}" >> .env
+        # 从多维表格链接中提取APP_TOKEN和TABLE_ID
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          TABLE_URL="${{ github.event.inputs.feishu_table_url }}"
+          AUTH_TOKEN="${{ github.event.inputs.feishu_auth_token }}"
+        else
+          TABLE_URL="${{ github.event.client_payload.feishu_table_url }}"
+          AUTH_TOKEN="${{ github.event.client_payload.feishu_auth_token }}"
+        fi
+        # 从URL中提取APP_TOKEN (格式: https://xxx.feishu.cn/base/APP_TOKEN?table=TABLE_ID)
+        APP_TOKEN=$(echo "$TABLE_URL" | sed -n 's/.*\/base\/\([^?]*\).*/\1/p')
+        TABLE_ID=$(echo "$TABLE_URL" | sed -n 's/.*table=\([^&]*\).*/\1/p')
+        echo "FEISHU_APP_TOKEN=$APP_TOKEN" >> .env
+        echo "FEISHU_TABLE_ID=$TABLE_ID" >> .env
+        echo "FEISHU_PERSONAL_BASE_TOKEN=$AUTH_TOKEN" >> .env
     
     - name: Run douyin sync (manual trigger)
       if: github.event_name == 'workflow_dispatch'
