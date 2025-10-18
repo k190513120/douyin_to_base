@@ -1,4 +1,4 @@
 requests==2.31.0
 python-dotenv==1.0.0
-baseopensdk==1.0.0
+https://lf3-static.bytednsdoc.com/obj/eden-cn/lmeh7phbozvhoz/base-open-sdk/baseopensdk-0.0.13-py3-none-any.whl
 urllib3==2.0.7
