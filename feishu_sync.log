@@ -1,0 +1,1324 @@
+2025-10-18 15:01:22,082 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:05:54,882 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:07:26,920 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:07:26,920 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:07:26,920 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:07:26,920 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:27,925 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:29,931 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:29,931 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559886492189904162
+2025-10-18 15:07:29,932 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:07:29,932 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:30,934 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:32,938 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:32,939 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559872872840285455
+2025-10-18 15:07:32,940 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:07:32,941 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:33,946 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:35,952 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:35,953 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559856316282375459
+2025-10-18 15:07:35,953 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:07:35,954 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:36,959 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:38,965 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:38,965 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559836528021638434
+2025-10-18 15:07:38,965 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:07:38,965 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:39,969 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:41,974 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:41,975 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559513767642418484
+2025-10-18 15:07:41,976 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:07:41,976 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:42,981 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:44,985 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:44,986 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559501517502401792
+2025-10-18 15:07:44,986 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:07:44,987 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:45,992 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:47,998 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:47,998 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7559153634550861066
+2025-10-18 15:07:47,998 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:07:47,998 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:49,001 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:51,004 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:51,005 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7558788270054837550
+2025-10-18 15:07:51,005 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:07:51,005 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:52,010 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:54,014 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:54,014 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7558355131251707175
+2025-10-18 15:07:54,015 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:07:54,015 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:55,019 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:57,024 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:57,024 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7557645856241896758
+2025-10-18 15:07:57,025 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:07:57,025 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:07:58,027 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:00,032 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:00,032 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7556455791335705898
+2025-10-18 15:08:00,032 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:08:00,033 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:01,038 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:03,043 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:03,043 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7555388840618265895
+2025-10-18 15:08:03,043 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:08:03,043 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:04,048 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:06,050 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:06,050 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7554701977796562195
+2025-10-18 15:08:06,051 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:08:06,051 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:07,055 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:09,059 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:09,059 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7553937357095980324
+2025-10-18 15:08:09,060 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:08:09,060 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:10,065 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:12,070 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:12,070 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7553937115847904531
+2025-10-18 15:08:12,071 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:08:12,071 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:13,073 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:15,078 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:15,078 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7553606283476077867
+2025-10-18 15:08:15,078 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:08:15,079 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:16,079 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:18,083 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:18,083 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7552464287504059667
+2025-10-18 15:08:18,084 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:08:18,084 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:19,089 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:21,092 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:21,093 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7552137866265021735
+2025-10-18 15:08:21,093 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:08:21,094 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:22,099 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:24,104 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:24,105 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7551378065977347371
+2025-10-18 15:08:24,105 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:08:24,105 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:25,106 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:27,112 - feishu_writer - ERROR - 检查记录存在性时出错: name 'SearchAppTableRecordRequest' is not defined
+2025-10-18 15:08:27,112 - feishu_writer - ERROR - 处理记录时出错: name 'SearchAppTableRecordRequest' is not defined, aweme_id: 7551005195929406759
+2025-10-18 15:08:27,112 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:08:27,113 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:08:27,113 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:08:27,113 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:08:27,113 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:09:19,274 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:09:19,274 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:09:19,274 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:09:21,041 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:24,556 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:29,410 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:29,410 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559886492189904162
+2025-10-18 15:09:29,411 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:09:32,332 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:38,987 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:46,946 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:09:46,946 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559872872840285455
+2025-10-18 15:09:46,946 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:09:54,182 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:01,533 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:08,143 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:08,143 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559856316282375459
+2025-10-18 15:10:08,143 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:10:12,656 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:17,471 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:33,684 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:10:33,685 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559836528021638434
+2025-10-18 15:10:33,685 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:10:55,988 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:11:45,874 - feishu_writer - ERROR - 获取记录时出错: HTTPSConnectionPool(host='base-api.feishu.cn', port=443): Max retries exceeded with url: /open-apis/bitable/v1/apps/Fn4hb8ErCanqEWsAHTVcOurjnAc/tables/tblsEZP7I7uqiG2K/records?page_size=100 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-10-18 15:20:29,557 - feishu_writer - ERROR - 获取记录时出错: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))
+2025-10-18 15:20:33,418 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:20:37,900 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:20:37,900 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559513767642418484
+2025-10-18 15:20:37,901 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:20:39,051 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:20:42,754 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:20:46,971 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:20:46,972 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559501517502401792
+2025-10-18 15:20:46,972 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:20:50,046 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:01,533 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:06,674 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:06,674 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7559153634550861066
+2025-10-18 15:21:06,674 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:21:11,446 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:14,031 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:18,370 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:18,370 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7558788270054837550
+2025-10-18 15:21:18,370 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:21:20,902 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:25,086 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:28,966 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:28,967 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7558355131251707175
+2025-10-18 15:21:28,967 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:21:36,462 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:44,474 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:48,128 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:48,128 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7557645856241896758
+2025-10-18 15:21:48,128 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:21:50,346 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:21:55,501 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:07,388 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:07,390 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7556455791335705898
+2025-10-18 15:22:07,390 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:22:16,390 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:26,247 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:29,560 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:29,560 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7555388840618265895
+2025-10-18 15:22:29,561 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:22:31,400 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:33,793 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:37,868 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:37,868 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7554701977796562195
+2025-10-18 15:22:37,868 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:22:39,045 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:41,357 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:44,619 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:44,619 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7553937357095980324
+2025-10-18 15:22:44,619 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:22:45,854 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:48,750 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:52,556 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:52,557 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7553937115847904531
+2025-10-18 15:22:52,557 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:22:54,180 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:56,476 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:59,637 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:22:59,638 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7553606283476077867
+2025-10-18 15:22:59,638 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:23:01,105 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:03,531 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:07,321 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:07,322 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7552464287504059667
+2025-10-18 15:23:07,322 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:23:08,502 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:10,683 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:13,776 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:13,777 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7552137866265021735
+2025-10-18 15:23:13,777 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:23:14,882 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:17,025 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:20,270 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:20,271 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7551378065977347371
+2025-10-18 15:23:20,271 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:23:21,217 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:23,170 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:26,121 - feishu_writer - ERROR - 检查记录存在性时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get'
+2025-10-18 15:23:26,122 - feishu_writer - ERROR - 处理记录时出错: 'ListAppTableRecordResponseBody' object has no attribute 'get', aweme_id: 7551005195929406759
+2025-10-18 15:23:26,122 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:23:26,122 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:23:26,122 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:23:26,123 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:23:26,124 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:25:09,671 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:25:09,671 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:25:09,672 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:25:13,494 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559886492189904162
+2025-10-18 15:25:13,495 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:25:13,800 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:25:16,920 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559872872840285455
+2025-10-18 15:25:16,920 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:25:17,225 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:25:18,710 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559856316282375459
+2025-10-18 15:25:18,710 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:25:19,011 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:25:21,686 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559836528021638434
+2025-10-18 15:25:21,686 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:25:21,986 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:25:23,503 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559513767642418484
+2025-10-18 15:25:23,504 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:25:23,809 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:25:25,380 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559501517502401792
+2025-10-18 15:25:25,381 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:25:25,682 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:25:27,440 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559153634550861066
+2025-10-18 15:25:27,441 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:25:27,746 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:25:29,166 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558788270054837550
+2025-10-18 15:25:29,167 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:25:29,477 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:25:31,629 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558355131251707175
+2025-10-18 15:25:31,630 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:25:31,936 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:25:34,118 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7557645856241896758
+2025-10-18 15:25:34,118 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:25:34,118 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:25:35,121 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:25:36,623 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7556455791335705898
+2025-10-18 15:25:36,623 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:25:36,931 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:25:38,827 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7555388840618265895
+2025-10-18 15:25:38,827 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:25:39,138 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:25:45,131 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7554701977796562195
+2025-10-18 15:25:45,131 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:25:45,437 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:25:47,595 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937357095980324
+2025-10-18 15:25:47,596 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:25:47,903 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:25:49,437 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937115847904531
+2025-10-18 15:25:49,438 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:25:49,742 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:25:51,201 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553606283476077867
+2025-10-18 15:25:51,201 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:25:51,511 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:25:53,659 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552464287504059667
+2025-10-18 15:25:53,660 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:25:53,970 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:25:57,771 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552137866265021735
+2025-10-18 15:25:57,771 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:25:58,075 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:26:01,722 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551378065977347371
+2025-10-18 15:26:01,722 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:26:02,032 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:26:05,839 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551005195929406759
+2025-10-18 15:26:05,840 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:26:05,840 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:26:06,844 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:26:06,845 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:26:06,845 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:26:06,845 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:26:06,845 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:26:20,450 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:27:10,702 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:27:10,702 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:27:10,702 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:27:14,301 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559886492189904162
+2025-10-18 15:27:14,302 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:27:14,612 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:27:17,809 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559872872840285455
+2025-10-18 15:27:17,810 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:27:18,118 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:27:21,249 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559856316282375459
+2025-10-18 15:27:21,250 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:27:21,560 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:27:23,838 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559836528021638434
+2025-10-18 15:27:23,839 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:27:24,142 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:27:26,480 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559513767642418484
+2025-10-18 15:27:26,481 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:27:26,783 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:27:29,750 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559501517502401792
+2025-10-18 15:27:29,751 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:27:30,059 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:27:32,897 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559153634550861066
+2025-10-18 15:27:32,897 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:27:33,207 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:27:35,089 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558788270054837550
+2025-10-18 15:27:35,089 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:27:35,399 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:27:39,990 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558355131251707175
+2025-10-18 15:27:39,991 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:27:40,302 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:27:47,836 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7557645856241896758
+2025-10-18 15:27:47,837 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:27:47,837 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:27:48,846 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:27:55,388 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7556455791335705898
+2025-10-18 15:27:55,388 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:27:55,690 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:27:58,530 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7555388840618265895
+2025-10-18 15:27:58,530 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:27:58,839 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:28:06,668 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7554701977796562195
+2025-10-18 15:28:06,670 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:28:06,978 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:28:10,790 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937357095980324
+2025-10-18 15:28:10,790 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:28:11,101 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:28:15,894 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937115847904531
+2025-10-18 15:28:15,895 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:28:16,204 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:28:19,715 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553606283476077867
+2025-10-18 15:28:19,716 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:28:20,026 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:28:24,407 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552464287504059667
+2025-10-18 15:28:24,408 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:28:24,717 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:28:29,797 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552137866265021735
+2025-10-18 15:28:29,798 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:28:30,108 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:28:37,058 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551378065977347371
+2025-10-18 15:28:37,058 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:28:37,368 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:28:43,792 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551005195929406759
+2025-10-18 15:28:43,792 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:28:43,792 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:28:44,798 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:28:44,799 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:28:44,799 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:28:44,799 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:28:44,799 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:29:50,943 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:29:50,944 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:29:50,944 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:29:53,659 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559886492189904162
+2025-10-18 15:29:53,659 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:29:53,963 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:29:56,318 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559872872840285455
+2025-10-18 15:29:56,319 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:29:56,622 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:29:59,812 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559856316282375459
+2025-10-18 15:29:59,812 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:30:00,113 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:30:03,076 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559836528021638434
+2025-10-18 15:30:03,077 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:30:03,378 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:30:06,059 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559513767642418484
+2025-10-18 15:30:06,060 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:30:06,365 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:30:08,583 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559501517502401792
+2025-10-18 15:30:08,584 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:30:08,889 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:30:11,091 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559153634550861066
+2025-10-18 15:30:11,091 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:30:11,394 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:30:14,049 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558788270054837550
+2025-10-18 15:30:14,049 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:30:14,350 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:30:17,205 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558355131251707175
+2025-10-18 15:30:17,205 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:30:17,508 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:30:20,696 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7557645856241896758
+2025-10-18 15:30:20,696 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:30:20,697 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:30:21,702 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:30:25,096 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7556455791335705898
+2025-10-18 15:30:25,096 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:30:25,401 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:30:28,749 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7555388840618265895
+2025-10-18 15:30:28,749 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:30:29,052 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:30:33,708 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7554701977796562195
+2025-10-18 15:30:33,709 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:30:34,014 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:30:38,700 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937357095980324
+2025-10-18 15:30:38,700 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:30:39,005 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:30:44,356 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937115847904531
+2025-10-18 15:30:44,356 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:30:44,658 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:30:48,968 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553606283476077867
+2025-10-18 15:30:48,968 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:30:49,274 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:30:52,877 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552464287504059667
+2025-10-18 15:30:52,878 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:30:53,183 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:30:56,738 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552137866265021735
+2025-10-18 15:30:56,738 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:30:57,043 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:31:02,571 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551378065977347371
+2025-10-18 15:31:02,571 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:31:02,874 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:31:08,480 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551005195929406759
+2025-10-18 15:31:08,480 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:31:08,480 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:31:09,485 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:31:09,485 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:31:09,485 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:31:09,485 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:31:09,485 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:32:10,158 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:32:10,159 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:32:10,159 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:32:13,840 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559886492189904162
+2025-10-18 15:32:13,841 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559886492189904162'}
+2025-10-18 15:32:13,841 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:32:14,147 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:32:17,159 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559872872840285455
+2025-10-18 15:32:17,160 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559872872840285455'}
+2025-10-18 15:32:17,160 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:32:17,461 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:32:20,486 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559856316282375459
+2025-10-18 15:32:20,487 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559856316282375459'}
+2025-10-18 15:32:20,488 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:32:20,792 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:32:23,133 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559836528021638434
+2025-10-18 15:32:23,133 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559836528021638434'}
+2025-10-18 15:32:23,134 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:32:23,439 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:32:27,171 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559513767642418484
+2025-10-18 15:32:27,172 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559513767642418484'}
+2025-10-18 15:32:27,172 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:32:27,477 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:32:30,717 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559501517502401792
+2025-10-18 15:32:30,718 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559501517502401792'}
+2025-10-18 15:32:30,718 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:32:31,020 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:32:35,407 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7559153634550861066
+2025-10-18 15:32:35,407 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7559153634550861066'}
+2025-10-18 15:32:35,407 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:32:35,708 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:32:39,056 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558788270054837550
+2025-10-18 15:32:39,057 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7558788270054837550'}
+2025-10-18 15:32:39,057 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:32:39,362 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:32:42,462 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7558355131251707175
+2025-10-18 15:32:42,463 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7558355131251707175'}
+2025-10-18 15:32:42,464 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:32:42,769 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:32:46,103 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7557645856241896758
+2025-10-18 15:32:46,104 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7557645856241896758'}
+2025-10-18 15:32:46,105 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:32:46,105 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:32:47,106 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:32:49,626 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7556455791335705898
+2025-10-18 15:32:49,626 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7556455791335705898'}
+2025-10-18 15:32:49,626 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:32:49,929 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:32:52,535 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7555388840618265895
+2025-10-18 15:32:52,535 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7555388840618265895'}
+2025-10-18 15:32:52,535 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:32:52,840 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:32:55,274 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7554701977796562195
+2025-10-18 15:32:55,275 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7554701977796562195'}
+2025-10-18 15:32:55,275 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:32:55,580 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:32:58,185 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937357095980324
+2025-10-18 15:32:58,185 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7553937357095980324'}
+2025-10-18 15:32:58,185 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:32:58,490 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:33:01,588 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553937115847904531
+2025-10-18 15:33:01,589 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7553937115847904531'}
+2025-10-18 15:33:01,589 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:33:01,894 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:33:04,112 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7553606283476077867
+2025-10-18 15:33:04,112 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7553606283476077867'}
+2025-10-18 15:33:04,112 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:33:04,415 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:33:07,342 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552464287504059667
+2025-10-18 15:33:07,342 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7552464287504059667'}
+2025-10-18 15:33:07,342 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:33:07,647 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:33:10,305 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7552137866265021735
+2025-10-18 15:33:10,306 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7552137866265021735'}
+2025-10-18 15:33:10,306 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:33:10,611 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:33:14,392 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551378065977347371
+2025-10-18 15:33:14,393 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7551378065977347371'}
+2025-10-18 15:33:14,393 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:33:14,694 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:33:17,421 - feishu_writer - ERROR - 创建记录失败: field validation failed, aweme_id: 7551005195929406759
+2025-10-18 15:33:17,421 - feishu_writer - ERROR - 失败的字段数据: {'视频名称': '抖音视频_7551005195929406759'}
+2025-10-18 15:33:17,421 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:33:17,421 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:33:18,426 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:33:18,427 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:33:18,427 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:33:18,427 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:33:18,427 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:36:31,356 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:36:32,951 - feishu_writer - INFO - 现有字段: {'视频名称'}
+2025-10-18 15:36:32,951 - feishu_writer - INFO - 创建缺失字段: aweme_id
+2025-10-18 15:36:32,952 - feishu_writer - ERROR - 创建字段 aweme_id 失败: name 'CreateAppTableFieldRequestBody' is not defined
+2025-10-18 15:36:32,952 - feishu_writer - ERROR - 创建字段失败: aweme_id
+2025-10-18 15:36:32,953 - feishu_writer - ERROR - 确保字段存在失败，无法继续写入记录
+2025-10-18 15:37:12,078 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:37:13,632 - feishu_writer - INFO - 现有字段: {'视频名称'}
+2025-10-18 15:37:13,632 - feishu_writer - INFO - 创建缺失字段: aweme_id
+2025-10-18 15:37:13,632 - feishu_writer - ERROR - 创建字段 aweme_id 失败: 'CreateAppTableFieldRequestBuilder' object has no attribute 'app_table_create_header'
+2025-10-18 15:37:13,632 - feishu_writer - ERROR - 创建字段失败: aweme_id
+2025-10-18 15:37:13,632 - feishu_writer - ERROR - 确保字段存在失败，无法继续写入记录
+2025-10-18 15:38:42,394 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:38:43,584 - feishu_writer - INFO - 现有字段: {'视频名称'}
+2025-10-18 15:38:43,584 - feishu_writer - INFO - 使用现有的'视频名称'字段进行测试
+2025-10-18 15:38:43,584 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:38:43,584 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:38:45,942 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559886492189904162
+2025-10-18 15:38:45,943 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:38:46,243 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:38:48,049 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559872872840285455
+2025-10-18 15:38:48,049 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:38:48,354 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:38:50,299 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559856316282375459
+2025-10-18 15:38:50,300 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:38:50,601 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:38:52,204 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559836528021638434
+2025-10-18 15:38:52,204 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:38:52,511 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:38:54,369 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559513767642418484
+2025-10-18 15:38:54,369 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:38:54,673 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:38:56,638 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559501517502401792
+2025-10-18 15:38:56,638 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:38:56,943 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:38:59,159 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559153634550861066
+2025-10-18 15:38:59,160 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:38:59,465 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:39:01,317 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7558788270054837550
+2025-10-18 15:39:01,317 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:39:01,622 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:39:04,226 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7558355131251707175
+2025-10-18 15:39:04,227 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:39:04,530 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:39:06,498 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7557645856241896758
+2025-10-18 15:39:06,498 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:39:06,498 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:39:07,502 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:39:10,175 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7556455791335705898
+2025-10-18 15:39:10,176 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:39:10,481 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:39:16,598 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7555388840618265895
+2025-10-18 15:39:16,599 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:39:16,903 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:39:19,559 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7554701977796562195
+2025-10-18 15:39:19,559 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:39:19,864 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:39:21,696 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553937357095980324
+2025-10-18 15:39:21,697 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:39:22,002 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:39:25,646 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553937115847904531
+2025-10-18 15:39:25,647 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:39:25,951 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:39:29,458 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553606283476077867
+2025-10-18 15:39:29,459 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:39:29,763 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:39:31,663 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7552464287504059667
+2025-10-18 15:39:31,664 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:39:31,969 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:39:34,779 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7552137866265021735
+2025-10-18 15:39:34,779 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:39:35,085 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:39:38,470 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7551378065977347371
+2025-10-18 15:39:38,470 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:39:38,775 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:39:43,300 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7551005195929406759
+2025-10-18 15:39:43,301 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:39:43,301 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:39:44,306 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:39:44,306 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:39:44,306 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:39:44,306 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:39:44,306 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:40:57,299 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:41:05,738 - feishu_writer - INFO - 现有字段: {'视频名称'}
+2025-10-18 15:41:05,739 - feishu_writer - INFO - 使用现有的'视频名称'字段进行测试
+2025-10-18 15:41:05,739 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:41:05,739 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:41:08,504 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559886492189904162
+2025-10-18 15:41:08,504 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:41:08,810 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:41:10,583 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559872872840285455
+2025-10-18 15:41:10,584 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:41:10,889 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:41:13,445 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559856316282375459
+2025-10-18 15:41:13,445 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:41:13,749 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:41:17,044 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559836528021638434
+2025-10-18 15:41:17,044 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:41:17,349 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:41:20,384 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559513767642418484
+2025-10-18 15:41:20,384 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:41:20,686 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:41:24,792 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559501517502401792
+2025-10-18 15:41:24,792 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:41:25,097 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:41:30,147 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559153634550861066
+2025-10-18 15:41:30,147 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:41:30,452 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:41:35,723 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7558788270054837550
+2025-10-18 15:41:35,723 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:41:36,026 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:41:40,991 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7558355131251707175
+2025-10-18 15:41:40,992 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:41:41,297 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:41:45,386 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7557645856241896758
+2025-10-18 15:41:45,386 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:41:45,386 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:41:46,392 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:41:51,310 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7556455791335705898
+2025-10-18 15:41:51,310 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:41:51,614 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:41:54,414 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7555388840618265895
+2025-10-18 15:41:54,414 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:41:54,719 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:41:58,753 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7554701977796562195
+2025-10-18 15:41:58,754 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:41:59,058 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:42:02,833 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553937357095980324
+2025-10-18 15:42:02,834 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:42:03,135 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:42:05,126 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553937115847904531
+2025-10-18 15:42:05,127 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:42:05,432 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:42:07,857 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553606283476077867
+2025-10-18 15:42:07,857 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:42:08,163 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:42:10,765 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7552464287504059667
+2025-10-18 15:42:10,765 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:42:11,067 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:42:13,807 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7552137866265021735
+2025-10-18 15:42:13,807 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:42:14,113 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:42:15,649 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7551378065977347371
+2025-10-18 15:42:15,650 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:42:15,955 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:42:18,130 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7551005195929406759
+2025-10-18 15:42:18,130 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:42:18,130 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:42:19,136 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:42:19,137 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:42:19,138 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:42:19,138 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:42:19,138 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:45:36,613 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:45:37,790 - feishu_writer - INFO - 发现 1 个飞书表格
+2025-10-18 15:45:37,790 - feishu_writer - INFO - 表格 抖音视频数据 不存在，开始创建...
+2025-10-18 15:45:39,202 - feishu_writer - INFO - 成功创建飞书表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:45:39,202 - feishu_writer - INFO - 成功创建表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:45:39,202 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:45:39,202 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:45:42,185 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559886492189904162
+2025-10-18 15:45:42,185 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:45:42,487 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:45:44,376 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559872872840285455
+2025-10-18 15:45:44,376 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:45:44,681 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:45:46,680 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559856316282375459
+2025-10-18 15:45:46,680 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:45:46,985 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:45:48,679 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559836528021638434
+2025-10-18 15:45:48,679 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:45:48,980 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:45:50,522 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559513767642418484
+2025-10-18 15:45:50,522 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:45:50,827 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:45:53,083 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559501517502401792
+2025-10-18 15:45:53,083 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:45:53,385 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:45:55,047 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7559153634550861066
+2025-10-18 15:45:55,048 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:45:55,349 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:45:59,563 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7558788270054837550
+2025-10-18 15:45:59,563 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:45:59,864 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:46:01,772 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7558355131251707175
+2025-10-18 15:46:01,772 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:46:02,074 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:46:04,176 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7557645856241896758
+2025-10-18 15:46:04,177 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:46:04,177 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:46:05,180 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:46:07,273 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7556455791335705898
+2025-10-18 15:46:07,273 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:46:07,574 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:46:09,733 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7555388840618265895
+2025-10-18 15:46:09,734 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:46:10,039 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:46:13,103 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7554701977796562195
+2025-10-18 15:46:13,103 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:46:13,409 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:46:27,031 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553937357095980324
+2025-10-18 15:46:27,031 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:46:27,336 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:47:44,923 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553937115847904531
+2025-10-18 15:47:44,924 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:47:45,229 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:47:46,099 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7553606283476077867
+2025-10-18 15:47:46,100 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:47:46,405 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:47:47,605 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7552464287504059667
+2025-10-18 15:47:47,605 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:47:47,907 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:47:48,789 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7552137866265021735
+2025-10-18 15:47:48,790 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:47:49,090 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:47:50,232 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7551378065977347371
+2025-10-18 15:47:50,232 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:47:50,538 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:47:51,655 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'app_table_record', aweme_id: 7551005195929406759
+2025-10-18 15:47:51,656 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:47:51,656 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:47:52,660 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:47:52,660 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:47:52,660 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:47:52,660 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:47:52,661 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:48:44,227 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:48:44,553 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 15:48:44,554 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:48:44,554 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:48:44,554 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:48:45,643 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559886492189904162
+2025-10-18 15:48:45,644 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:48:45,947 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:48:47,196 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559872872840285455
+2025-10-18 15:48:47,196 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:48:47,501 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:48:48,538 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559856316282375459
+2025-10-18 15:48:48,538 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:48:48,843 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:48:49,868 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559836528021638434
+2025-10-18 15:48:49,868 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:48:50,174 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:48:51,299 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559513767642418484
+2025-10-18 15:48:51,299 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:48:51,605 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:48:52,499 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559501517502401792
+2025-10-18 15:48:52,500 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:48:52,805 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:48:53,759 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7559153634550861066
+2025-10-18 15:48:53,759 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:48:54,064 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:48:54,989 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7558788270054837550
+2025-10-18 15:48:54,989 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:48:55,295 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:48:56,138 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7558355131251707175
+2025-10-18 15:48:56,138 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:48:56,442 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:48:57,264 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7557645856241896758
+2025-10-18 15:48:57,264 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:48:57,264 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:48:58,269 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:48:59,339 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7556455791335705898
+2025-10-18 15:48:59,339 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:48:59,644 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:49:00,505 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7555388840618265895
+2025-10-18 15:49:00,505 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:49:00,809 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:49:01,958 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7554701977796562195
+2025-10-18 15:49:01,958 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:49:02,263 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:49:03,244 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553937357095980324
+2025-10-18 15:49:03,245 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:49:03,547 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:49:04,576 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553937115847904531
+2025-10-18 15:49:04,577 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:49:04,882 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:49:05,828 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7553606283476077867
+2025-10-18 15:49:05,828 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:49:06,132 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:49:07,056 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7552464287504059667
+2025-10-18 15:49:07,056 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:49:07,361 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:49:08,472 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7552137866265021735
+2025-10-18 15:49:08,473 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:49:08,777 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:49:09,931 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7551378065977347371
+2025-10-18 15:49:09,932 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:49:10,237 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:49:11,363 - feishu_writer - ERROR - 创建记录时出错: name 'CreateAppTableRecordRequestBody' is not defined, aweme_id: 7551005195929406759
+2025-10-18 15:49:11,363 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:49:11,363 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:49:12,368 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:49:12,369 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:49:12,370 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:49:12,370 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:49:12,371 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:49:33,006 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:49:33,419 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 15:49:33,419 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:49:33,419 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:49:33,419 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:49:34,364 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559886492189904162
+2025-10-18 15:49:34,364 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:49:34,670 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:49:35,771 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559872872840285455
+2025-10-18 15:49:35,771 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:49:36,075 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:49:37,087 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559856316282375459
+2025-10-18 15:49:37,088 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:49:37,390 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:49:38,392 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559836528021638434
+2025-10-18 15:49:38,393 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:49:38,694 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:49:39,530 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559513767642418484
+2025-10-18 15:49:39,531 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:49:39,831 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:49:41,321 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559501517502401792
+2025-10-18 15:49:41,321 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:49:41,625 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:49:42,510 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7559153634550861066
+2025-10-18 15:49:42,511 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:49:42,816 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:49:43,944 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7558788270054837550
+2025-10-18 15:49:43,944 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:49:44,246 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:49:45,457 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7558355131251707175
+2025-10-18 15:49:45,457 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:49:45,762 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:49:46,959 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7557645856241896758
+2025-10-18 15:49:46,959 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:49:46,959 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:49:47,965 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:49:49,247 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7556455791335705898
+2025-10-18 15:49:49,248 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:49:49,553 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:49:50,618 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7555388840618265895
+2025-10-18 15:49:50,619 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:49:50,920 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:49:52,525 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7554701977796562195
+2025-10-18 15:49:52,525 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:49:52,830 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:49:53,891 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7553937357095980324
+2025-10-18 15:49:53,891 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:49:54,196 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:49:55,152 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7553937115847904531
+2025-10-18 15:49:55,152 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:49:55,458 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:49:56,457 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7553606283476077867
+2025-10-18 15:49:56,457 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:49:56,760 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:49:58,054 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7552464287504059667
+2025-10-18 15:49:58,055 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:49:58,358 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:49:59,474 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7552137866265021735
+2025-10-18 15:49:59,474 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:49:59,779 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:50:01,057 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7551378065977347371
+2025-10-18 15:50:01,058 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:50:01,364 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:50:02,520 - feishu_writer - ERROR - 创建记录时出错: 'CreateAppTableRecordRequestBuilder' object has no attribute 'record', aweme_id: 7551005195929406759
+2025-10-18 15:50:02,520 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:50:02,521 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:50:03,526 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:50:03,527 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:50:03,527 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:50:03,527 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:50:03,528 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:50:50,679 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:50:50,998 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 15:50:50,999 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:50:51,000 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:50:51,000 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:50:52,624 - feishu_writer - ERROR - 创建记录失败: CheckboxFieldConvFail, aweme_id: 7559886492189904162
+2025-10-18 15:50:52,625 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559886492189904162', 'desc': '', 'create_time': 1760173244000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773852000}
+2025-10-18 15:50:52,626 - feishu_writer - ERROR - 创建记录失败: 7559886492189904162
+2025-10-18 15:50:52,929 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:50:54,261 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7559872872840285455
+2025-10-18 15:50:54,261 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559872872840285455', 'desc': '', 'create_time': 1760170074000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773853000}
+2025-10-18 15:50:54,262 - feishu_writer - ERROR - 创建记录失败: 7559872872840285455
+2025-10-18 15:50:54,562 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:50:56,028 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7559856316282375459
+2025-10-18 15:50:56,028 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559856316282375459', 'desc': '', 'create_time': 1760166217000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773855000}
+2025-10-18 15:50:56,029 - feishu_writer - ERROR - 创建记录失败: 7559856316282375459
+2025-10-18 15:50:56,333 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:50:57,788 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7559836528021638434
+2025-10-18 15:50:57,788 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559836528021638434', 'desc': '', 'create_time': 1760161616000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773857000}
+2025-10-18 15:50:57,788 - feishu_writer - ERROR - 创建记录失败: 7559836528021638434
+2025-10-18 15:50:58,093 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:50:59,645 - feishu_writer - ERROR - 创建记录失败: CheckboxFieldConvFail, aweme_id: 7559513767642418484
+2025-10-18 15:50:59,645 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559513767642418484', 'desc': '', 'create_time': 1760086464000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773859000}
+2025-10-18 15:50:59,645 - feishu_writer - ERROR - 创建记录失败: 7559513767642418484
+2025-10-18 15:50:59,950 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:51:01,481 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7559501517502401792
+2025-10-18 15:51:01,481 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559501517502401792', 'desc': '', 'create_time': 1760083611000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773861000}
+2025-10-18 15:51:01,481 - feishu_writer - ERROR - 创建记录失败: 7559501517502401792
+2025-10-18 15:51:01,784 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:51:03,196 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7559153634550861066
+2025-10-18 15:51:03,196 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7559153634550861066', 'desc': '', 'create_time': 1760002612000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773862000}
+2025-10-18 15:51:03,197 - feishu_writer - ERROR - 创建记录失败: 7559153634550861066
+2025-10-18 15:51:03,501 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:51:05,022 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7558788270054837550
+2025-10-18 15:51:05,023 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7558788270054837550', 'desc': '', 'create_time': 1759917550000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773864000}
+2025-10-18 15:51:05,024 - feishu_writer - ERROR - 创建记录失败: 7558788270054837550
+2025-10-18 15:51:05,328 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:51:06,654 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7558355131251707175
+2025-10-18 15:51:06,655 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7558355131251707175', 'desc': '', 'create_time': 1759816701000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773866000}
+2025-10-18 15:51:06,655 - feishu_writer - ERROR - 创建记录失败: 7558355131251707175
+2025-10-18 15:51:06,959 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:51:08,707 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7557645856241896758
+2025-10-18 15:51:08,707 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7557645856241896758', 'desc': '', 'create_time': 1759651559000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773868000}
+2025-10-18 15:51:08,707 - feishu_writer - ERROR - 创建记录失败: 7557645856241896758
+2025-10-18 15:51:08,707 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:51:09,712 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:51:11,151 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7556455791335705898
+2025-10-18 15:51:11,151 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7556455791335705898', 'desc': '', 'create_time': 1759374476000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773870000}
+2025-10-18 15:51:11,151 - feishu_writer - ERROR - 创建记录失败: 7556455791335705898
+2025-10-18 15:51:11,457 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:51:12,780 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7555388840618265895
+2025-10-18 15:51:12,781 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7555388840618265895', 'desc': '', 'create_time': 1759126054000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773872000}
+2025-10-18 15:51:12,781 - feishu_writer - ERROR - 创建记录失败: 7555388840618265895
+2025-10-18 15:51:13,087 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:51:14,650 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7554701977796562195
+2025-10-18 15:51:14,651 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7554701977796562195', 'desc': '', 'create_time': 1758966134000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773874000}
+2025-10-18 15:51:14,651 - feishu_writer - ERROR - 创建记录失败: 7554701977796562195
+2025-10-18 15:51:14,954 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:51:16,352 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7553937357095980324
+2025-10-18 15:51:16,353 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7553937357095980324', 'desc': '', 'create_time': 1758788106000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773875000}
+2025-10-18 15:51:16,353 - feishu_writer - ERROR - 创建记录失败: 7553937357095980324
+2025-10-18 15:51:16,660 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:51:18,052 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7553937115847904531
+2025-10-18 15:51:18,053 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7553937115847904531', 'desc': '', 'create_time': 1758788047000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773877000}
+2025-10-18 15:51:18,054 - feishu_writer - ERROR - 创建记录失败: 7553937115847904531
+2025-10-18 15:51:18,355 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:51:20,205 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7553606283476077867
+2025-10-18 15:51:20,205 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7553606283476077867', 'desc': '', 'create_time': 1758711024000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773879000}
+2025-10-18 15:51:20,206 - feishu_writer - ERROR - 创建记录失败: 7553606283476077867
+2025-10-18 15:51:20,509 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:51:22,430 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7552464287504059667
+2025-10-18 15:51:22,431 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7552464287504059667', 'desc': '', 'create_time': 1758445130000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773881000}
+2025-10-18 15:51:22,431 - feishu_writer - ERROR - 创建记录失败: 7552464287504059667
+2025-10-18 15:51:22,736 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:51:24,353 - feishu_writer - ERROR - 创建记录失败: CheckboxFieldConvFail, aweme_id: 7552137866265021735
+2025-10-18 15:51:24,354 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7552137866265021735', 'desc': '', 'create_time': 1758369142000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773883000}
+2025-10-18 15:51:24,355 - feishu_writer - ERROR - 创建记录失败: 7552137866265021735
+2025-10-18 15:51:24,659 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:51:26,010 - feishu_writer - ERROR - 创建记录失败: NumberFieldConvFail, aweme_id: 7551378065977347371
+2025-10-18 15:51:26,010 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7551378065977347371', 'desc': '', 'create_time': 1758192226000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773885000}
+2025-10-18 15:51:26,011 - feishu_writer - ERROR - 创建记录失败: 7551378065977347371
+2025-10-18 15:51:26,316 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:51:27,870 - feishu_writer - ERROR - 创建记录失败: CheckboxFieldConvFail, aweme_id: 7551005195929406759
+2025-10-18 15:51:27,871 - feishu_writer - ERROR - 失败的字段数据: {'aweme_id': '7551005195929406759', 'desc': '', 'create_time': 1758105412000, 'author_nickname': '', 'author_unique_id': '', 'digg_count': '0', 'comment_count': '0', 'collect_count': '0', 'share_count': '0', 'play_count': '0', 'video_url': '', 'cover_url': '', 'music_title': '', 'music_author': '', 'duration': '0', 'video_width': '0', 'video_height': '0', 'hashtags': '', 'is_top': 'False', 'sync_time': 1760773887000}
+2025-10-18 15:51:27,872 - feishu_writer - ERROR - 创建记录失败: 7551005195929406759
+2025-10-18 15:51:27,872 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:51:28,877 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:51:28,878 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:51:28,878 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 15:51:28,878 - feishu_writer - INFO - 失败: 20 条
+2025-10-18 15:51:28,879 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 15:53:33,577 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 15:53:33,916 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 15:53:33,916 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 15:53:33,916 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 15:53:33,916 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 15:53:36,366 - feishu_writer - INFO - 成功创建记录: 7559886492189904162
+2025-10-18 15:53:36,674 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 15:53:39,699 - feishu_writer - INFO - 成功创建记录: 7559872872840285455
+2025-10-18 15:53:40,000 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 15:53:42,170 - feishu_writer - INFO - 成功创建记录: 7559856316282375459
+2025-10-18 15:53:42,475 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 15:53:44,651 - feishu_writer - INFO - 成功创建记录: 7559836528021638434
+2025-10-18 15:53:44,953 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 15:53:47,292 - feishu_writer - INFO - 成功创建记录: 7559513767642418484
+2025-10-18 15:53:47,599 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 15:53:49,770 - feishu_writer - INFO - 成功创建记录: 7559501517502401792
+2025-10-18 15:53:50,080 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 15:53:52,511 - feishu_writer - INFO - 成功创建记录: 7559153634550861066
+2025-10-18 15:53:52,819 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 15:53:55,188 - feishu_writer - INFO - 成功创建记录: 7558788270054837550
+2025-10-18 15:53:55,499 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 15:53:58,309 - feishu_writer - INFO - 成功创建记录: 7558355131251707175
+2025-10-18 15:53:58,612 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 15:54:00,855 - feishu_writer - INFO - 成功创建记录: 7557645856241896758
+2025-10-18 15:54:00,855 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 15:54:01,865 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 15:54:03,937 - feishu_writer - INFO - 成功创建记录: 7556455791335705898
+2025-10-18 15:54:04,240 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 15:54:06,406 - feishu_writer - INFO - 成功创建记录: 7555388840618265895
+2025-10-18 15:54:06,717 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 15:54:08,812 - feishu_writer - INFO - 成功创建记录: 7554701977796562195
+2025-10-18 15:54:09,122 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 15:54:11,738 - feishu_writer - INFO - 成功创建记录: 7553937357095980324
+2025-10-18 15:54:12,048 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 15:54:14,467 - feishu_writer - INFO - 成功创建记录: 7553937115847904531
+2025-10-18 15:54:14,774 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 15:54:17,289 - feishu_writer - INFO - 成功创建记录: 7553606283476077867
+2025-10-18 15:54:17,599 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 15:54:19,886 - feishu_writer - INFO - 成功创建记录: 7552464287504059667
+2025-10-18 15:54:20,190 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 15:54:22,139 - feishu_writer - INFO - 成功创建记录: 7552137866265021735
+2025-10-18 15:54:22,449 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 15:54:24,484 - feishu_writer - INFO - 成功创建记录: 7551378065977347371
+2025-10-18 15:54:24,795 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 15:54:27,296 - feishu_writer - INFO - 成功创建记录: 7551005195929406759
+2025-10-18 15:54:27,296 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 15:54:28,300 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 15:54:28,301 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 15:54:28,301 - feishu_writer - INFO - 成功: 20 条
+2025-10-18 15:54:28,301 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 15:54:28,302 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 16:54:10,421 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:55:24,091 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:56:09,661 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:56:10,114 - feishu_writer - INFO - 检测到表格字段不足，尝试确保表格存在...
+2025-10-18 16:56:10,394 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 16:56:10,394 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 16:56:10,705 - feishu_writer - INFO - 更新后的可用字段: ['aweme_id', 'desc', 'create_time', 'author_nickname', 'author_unique_id', 'digg_count', 'comment_count', 'collect_count', 'share_count', 'play_count', 'video_url', 'cover_url', 'music_title', 'music_author', 'duration', 'video_width', 'video_height', 'hashtags', 'is_top', 'sync_time']
+2025-10-18 16:56:50,222 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:56:50,639 - feishu_writer - INFO - 检测到表格字段不足，尝试确保表格存在...
+2025-10-18 16:56:50,941 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 16:56:50,942 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 16:56:51,395 - feishu_writer - INFO - 更新后的可用字段: ['aweme_id', 'desc', 'create_time', 'author_nickname', 'author_unique_id', 'digg_count', 'comment_count', 'collect_count', 'share_count', 'play_count', 'video_url', 'cover_url', 'music_title', 'music_author', 'duration', 'video_width', 'video_height', 'hashtags', 'is_top', 'sync_time']
+2025-10-18 16:58:10,454 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:58:10,867 - feishu_writer - INFO - 检测到表格字段不足，尝试确保表格存在...
+2025-10-18 16:58:11,163 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 16:58:11,163 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 16:58:11,523 - feishu_writer - INFO - 更新后的可用字段: ['aweme_id', 'desc', 'create_time', 'author_nickname', 'author_unique_id', 'digg_count', 'comment_count', 'collect_count', 'share_count', 'play_count', 'video_url', 'cover_url', 'music_title', 'music_author', 'duration', 'video_width', 'video_height', 'hashtags', 'is_top', 'sync_time']
+2025-10-18 16:59:03,774 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:59:04,238 - feishu_writer - INFO - 检测到表格字段不足，尝试确保表格存在...
+2025-10-18 16:59:04,701 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 16:59:04,701 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 16:59:05,106 - feishu_writer - INFO - 更新后的可用字段: ['aweme_id', 'desc', 'create_time', 'author_nickname', 'author_unique_id', 'digg_count', 'comment_count', 'collect_count', 'share_count', 'play_count', 'video_url', 'cover_url', 'music_title', 'music_author', 'duration', 'video_width', 'video_height', 'hashtags', 'is_top', 'sync_time']
+2025-10-18 16:59:35,213 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 16:59:35,613 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 16:59:35,614 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 16:59:35,614 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 16:59:35,614 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 16:59:36,242 - feishu_writer - INFO - 记录已存在，跳过: 7559886492189904162
+2025-10-18 16:59:36,243 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 16:59:37,214 - feishu_writer - INFO - 记录已存在，跳过: 7559872872840285455
+2025-10-18 16:59:37,214 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 16:59:37,795 - feishu_writer - INFO - 记录已存在，跳过: 7559856316282375459
+2025-10-18 16:59:37,796 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 16:59:38,343 - feishu_writer - INFO - 记录已存在，跳过: 7559836528021638434
+2025-10-18 16:59:38,343 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 16:59:38,937 - feishu_writer - INFO - 记录已存在，跳过: 7559513767642418484
+2025-10-18 16:59:38,937 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 16:59:39,443 - feishu_writer - INFO - 记录已存在，跳过: 7559501517502401792
+2025-10-18 16:59:39,444 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 16:59:40,332 - feishu_writer - INFO - 记录已存在，跳过: 7559153634550861066
+2025-10-18 16:59:40,332 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 16:59:40,838 - feishu_writer - INFO - 记录已存在，跳过: 7558788270054837550
+2025-10-18 16:59:40,839 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 16:59:41,505 - feishu_writer - INFO - 记录已存在，跳过: 7558355131251707175
+2025-10-18 16:59:41,505 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 16:59:42,129 - feishu_writer - INFO - 记录已存在，跳过: 7557645856241896758
+2025-10-18 16:59:42,130 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 16:59:42,816 - feishu_writer - INFO - 记录已存在，跳过: 7556455791335705898
+2025-10-18 16:59:42,817 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 16:59:43,362 - feishu_writer - INFO - 记录已存在，跳过: 7555388840618265895
+2025-10-18 16:59:43,362 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 16:59:43,908 - feishu_writer - INFO - 记录已存在，跳过: 7554701977796562195
+2025-10-18 16:59:43,908 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 16:59:44,389 - feishu_writer - INFO - 记录已存在，跳过: 7553937357095980324
+2025-10-18 16:59:44,390 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 16:59:44,962 - feishu_writer - INFO - 记录已存在，跳过: 7553937115847904531
+2025-10-18 16:59:44,963 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 16:59:45,554 - feishu_writer - INFO - 记录已存在，跳过: 7553606283476077867
+2025-10-18 16:59:45,555 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 16:59:46,058 - feishu_writer - INFO - 记录已存在，跳过: 7552464287504059667
+2025-10-18 16:59:46,058 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 16:59:46,677 - feishu_writer - INFO - 记录已存在，跳过: 7552137866265021735
+2025-10-18 16:59:46,678 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 16:59:47,216 - feishu_writer - INFO - 记录已存在，跳过: 7551378065977347371
+2025-10-18 16:59:47,216 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 16:59:47,730 - feishu_writer - INFO - 记录已存在，跳过: 7551005195929406759
+2025-10-18 16:59:47,731 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 16:59:47,731 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 16:59:47,731 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 16:59:47,731 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 16:59:47,731 - feishu_writer - INFO - 跳过: 20 条
+2025-10-18 17:07:09,781 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 17:07:10,490 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 17:07:10,491 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 17:07:10,491 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 17:07:10,491 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 17:07:13,170 - feishu_writer - INFO - 成功创建记录: 7559886492189904162
+2025-10-18 17:07:13,476 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 17:07:15,759 - feishu_writer - INFO - 成功创建记录: 7559872872840285455
+2025-10-18 17:07:16,062 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 17:07:18,639 - feishu_writer - INFO - 成功创建记录: 7559856316282375459
+2025-10-18 17:07:18,944 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 17:07:21,078 - feishu_writer - INFO - 成功创建记录: 7559836528021638434
+2025-10-18 17:07:21,384 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 17:07:24,094 - feishu_writer - INFO - 成功创建记录: 7559513767642418484
+2025-10-18 17:07:24,397 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 17:07:26,528 - feishu_writer - INFO - 成功创建记录: 7559501517502401792
+2025-10-18 17:07:26,831 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 17:07:29,119 - feishu_writer - INFO - 成功创建记录: 7559153634550861066
+2025-10-18 17:07:29,422 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 17:07:32,271 - feishu_writer - INFO - 成功创建记录: 7558788270054837550
+2025-10-18 17:07:32,577 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 17:07:35,191 - feishu_writer - INFO - 成功创建记录: 7558355131251707175
+2025-10-18 17:07:35,493 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 17:07:37,538 - feishu_writer - INFO - 成功创建记录: 7557645856241896758
+2025-10-18 17:07:37,539 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 17:07:38,539 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 17:07:40,958 - feishu_writer - INFO - 成功创建记录: 7556455791335705898
+2025-10-18 17:07:41,264 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 17:07:43,423 - feishu_writer - INFO - 成功创建记录: 7555388840618265895
+2025-10-18 17:07:43,725 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 17:07:46,242 - feishu_writer - INFO - 成功创建记录: 7554701977796562195
+2025-10-18 17:07:46,548 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 17:07:48,391 - feishu_writer - INFO - 成功创建记录: 7553937357095980324
+2025-10-18 17:07:48,697 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 17:07:50,940 - feishu_writer - INFO - 成功创建记录: 7553937115847904531
+2025-10-18 17:07:51,245 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 17:07:53,410 - feishu_writer - INFO - 成功创建记录: 7553606283476077867
+2025-10-18 17:07:53,715 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 17:07:55,758 - feishu_writer - INFO - 成功创建记录: 7552464287504059667
+2025-10-18 17:07:56,064 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 17:07:58,214 - feishu_writer - INFO - 成功创建记录: 7552137866265021735
+2025-10-18 17:07:58,518 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 17:08:01,226 - feishu_writer - INFO - 成功创建记录: 7551378065977347371
+2025-10-18 17:08:01,530 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 17:08:03,543 - feishu_writer - INFO - 成功创建记录: 7551005195929406759
+2025-10-18 17:08:03,543 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 17:08:04,548 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 17:08:04,549 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 17:08:04,550 - feishu_writer - INFO - 成功: 20 条
+2025-10-18 17:08:04,550 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 17:08:04,551 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 17:12:13,521 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 17:12:13,872 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 17:12:13,873 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 17:12:13,873 - feishu_writer - INFO - 开始批量写入 5 条记录到飞书多维表格...
+2025-10-18 17:12:13,873 - feishu_writer - INFO - 处理第 1/5 条记录: 7559886492189904162
+2025-10-18 17:12:14,634 - feishu_writer - INFO - 记录已存在，跳过: 7559886492189904162
+2025-10-18 17:12:14,635 - feishu_writer - INFO - 处理第 2/5 条记录: 7559872872840285455
+2025-10-18 17:12:15,333 - feishu_writer - INFO - 记录已存在，跳过: 7559872872840285455
+2025-10-18 17:12:15,333 - feishu_writer - INFO - 处理第 3/5 条记录: 7559856316282375459
+2025-10-18 17:12:16,049 - feishu_writer - INFO - 记录已存在，跳过: 7559856316282375459
+2025-10-18 17:12:16,050 - feishu_writer - INFO - 处理第 4/5 条记录: 7559836528021638434
+2025-10-18 17:12:16,680 - feishu_writer - INFO - 记录已存在，跳过: 7559836528021638434
+2025-10-18 17:12:16,681 - feishu_writer - INFO - 处理第 5/5 条记录: 7559513767642418484
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 记录已存在，跳过: 7559513767642418484
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 总计: 5 条
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 17:12:17,665 - feishu_writer - INFO - 跳过: 5 条
+2025-10-18 17:12:33,181 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 17:12:33,566 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 17:12:33,566 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 17:12:33,566 - feishu_writer - INFO - 开始批量写入 20 条记录到飞书多维表格...
+2025-10-18 17:12:33,566 - feishu_writer - INFO - 处理第 1/20 条记录: 7559886492189904162
+2025-10-18 17:12:34,211 - feishu_writer - INFO - 记录已存在，跳过: 7559886492189904162
+2025-10-18 17:12:34,211 - feishu_writer - INFO - 处理第 2/20 条记录: 7559872872840285455
+2025-10-18 17:12:34,789 - feishu_writer - INFO - 记录已存在，跳过: 7559872872840285455
+2025-10-18 17:12:34,790 - feishu_writer - INFO - 处理第 3/20 条记录: 7559856316282375459
+2025-10-18 17:12:35,352 - feishu_writer - INFO - 记录已存在，跳过: 7559856316282375459
+2025-10-18 17:12:35,352 - feishu_writer - INFO - 处理第 4/20 条记录: 7559836528021638434
+2025-10-18 17:12:35,972 - feishu_writer - INFO - 记录已存在，跳过: 7559836528021638434
+2025-10-18 17:12:35,972 - feishu_writer - INFO - 处理第 5/20 条记录: 7559513767642418484
+2025-10-18 17:12:36,919 - feishu_writer - INFO - 记录已存在，跳过: 7559513767642418484
+2025-10-18 17:12:36,920 - feishu_writer - INFO - 处理第 6/20 条记录: 7559501517502401792
+2025-10-18 17:12:37,524 - feishu_writer - INFO - 记录已存在，跳过: 7559501517502401792
+2025-10-18 17:12:37,525 - feishu_writer - INFO - 处理第 7/20 条记录: 7559153634550861066
+2025-10-18 17:12:37,998 - feishu_writer - INFO - 记录已存在，跳过: 7559153634550861066
+2025-10-18 17:12:37,998 - feishu_writer - INFO - 处理第 8/20 条记录: 7558788270054837550
+2025-10-18 17:12:38,751 - feishu_writer - INFO - 记录已存在，跳过: 7558788270054837550
+2025-10-18 17:12:38,751 - feishu_writer - INFO - 处理第 9/20 条记录: 7558355131251707175
+2025-10-18 17:12:39,367 - feishu_writer - INFO - 记录已存在，跳过: 7558355131251707175
+2025-10-18 17:12:39,368 - feishu_writer - INFO - 处理第 10/20 条记录: 7557645856241896758
+2025-10-18 17:12:40,091 - feishu_writer - INFO - 记录已存在，跳过: 7557645856241896758
+2025-10-18 17:12:40,091 - feishu_writer - INFO - 处理第 11/20 条记录: 7556455791335705898
+2025-10-18 17:12:40,796 - feishu_writer - INFO - 记录已存在，跳过: 7556455791335705898
+2025-10-18 17:12:40,797 - feishu_writer - INFO - 处理第 12/20 条记录: 7555388840618265895
+2025-10-18 17:12:41,366 - feishu_writer - INFO - 记录已存在，跳过: 7555388840618265895
+2025-10-18 17:12:41,366 - feishu_writer - INFO - 处理第 13/20 条记录: 7554701977796562195
+2025-10-18 17:12:41,970 - feishu_writer - INFO - 记录已存在，跳过: 7554701977796562195
+2025-10-18 17:12:41,970 - feishu_writer - INFO - 处理第 14/20 条记录: 7553937357095980324
+2025-10-18 17:12:42,474 - feishu_writer - INFO - 记录已存在，跳过: 7553937357095980324
+2025-10-18 17:12:42,475 - feishu_writer - INFO - 处理第 15/20 条记录: 7553937115847904531
+2025-10-18 17:12:43,061 - feishu_writer - INFO - 记录已存在，跳过: 7553937115847904531
+2025-10-18 17:12:43,061 - feishu_writer - INFO - 处理第 16/20 条记录: 7553606283476077867
+2025-10-18 17:12:43,564 - feishu_writer - INFO - 记录已存在，跳过: 7553606283476077867
+2025-10-18 17:12:43,564 - feishu_writer - INFO - 处理第 17/20 条记录: 7552464287504059667
+2025-10-18 17:12:44,644 - feishu_writer - INFO - 记录已存在，跳过: 7552464287504059667
+2025-10-18 17:12:44,644 - feishu_writer - INFO - 处理第 18/20 条记录: 7552137866265021735
+2025-10-18 17:12:45,142 - feishu_writer - INFO - 记录已存在，跳过: 7552137866265021735
+2025-10-18 17:12:45,142 - feishu_writer - INFO - 处理第 19/20 条记录: 7551378065977347371
+2025-10-18 17:12:45,721 - feishu_writer - INFO - 记录已存在，跳过: 7551378065977347371
+2025-10-18 17:12:45,722 - feishu_writer - INFO - 处理第 20/20 条记录: 7551005195929406759
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 记录已存在，跳过: 7551005195929406759
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 总计: 20 条
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 17:12:46,258 - feishu_writer - INFO - 跳过: 20 条
+2025-10-18 17:14:06,553 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 17:14:06,981 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 17:14:06,981 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 17:14:06,981 - feishu_writer - INFO - 开始批量写入 23 条记录到飞书多维表格...
+2025-10-18 17:14:06,981 - feishu_writer - INFO - 处理第 1/23 条记录: 7153549929326120227
+2025-10-18 17:14:09,097 - feishu_writer - INFO - 成功创建记录: 7153549929326120227
+2025-10-18 17:14:09,401 - feishu_writer - INFO - 处理第 2/23 条记录: 7266740902494833931
+2025-10-18 17:14:11,628 - feishu_writer - INFO - 成功创建记录: 7266740902494833931
+2025-10-18 17:14:11,931 - feishu_writer - INFO - 处理第 3/23 条记录: 7196618597496524067
+2025-10-18 17:14:14,672 - feishu_writer - INFO - 成功创建记录: 7196618597496524067
+2025-10-18 17:14:14,977 - feishu_writer - INFO - 处理第 4/23 条记录: 7559922055354846521
+2025-10-18 17:14:17,242 - feishu_writer - INFO - 成功创建记录: 7559922055354846521
+2025-10-18 17:14:17,546 - feishu_writer - INFO - 处理第 5/23 条记录: 7557668494435732795
+2025-10-18 17:14:19,818 - feishu_writer - INFO - 成功创建记录: 7557668494435732795
+2025-10-18 17:14:20,120 - feishu_writer - INFO - 处理第 6/23 条记录: 7553588363032005946
+2025-10-18 17:14:22,475 - feishu_writer - INFO - 成功创建记录: 7553588363032005946
+2025-10-18 17:14:22,776 - feishu_writer - INFO - 处理第 7/23 条记录: 7552474106132090171
+2025-10-18 17:14:24,994 - feishu_writer - INFO - 成功创建记录: 7552474106132090171
+2025-10-18 17:14:25,298 - feishu_writer - INFO - 处理第 8/23 条记录: 7550994775403416891
+2025-10-18 17:14:28,027 - feishu_writer - INFO - 成功创建记录: 7550994775403416891
+2025-10-18 17:14:28,330 - feishu_writer - INFO - 处理第 9/23 条记录: 7547281170661805369
+2025-10-18 17:14:30,791 - feishu_writer - INFO - 成功创建记录: 7547281170661805369
+2025-10-18 17:14:31,095 - feishu_writer - INFO - 处理第 10/23 条记录: 7543950832598797625
+2025-10-18 17:14:33,372 - feishu_writer - INFO - 成功创建记录: 7543950832598797625
+2025-10-18 17:14:33,372 - feishu_writer - INFO - 已处理 10 条记录，暂停1秒避免限流...
+2025-10-18 17:14:34,376 - feishu_writer - INFO - 处理第 11/23 条记录: 7542102211314076986
+2025-10-18 17:14:37,054 - feishu_writer - INFO - 成功创建记录: 7542102211314076986
+2025-10-18 17:14:37,360 - feishu_writer - INFO - 处理第 12/23 条记录: 7540618822338186556
+2025-10-18 17:14:39,742 - feishu_writer - INFO - 成功创建记录: 7540618822338186556
+2025-10-18 17:14:40,048 - feishu_writer - INFO - 处理第 13/23 条记录: 7530572907333815612
+2025-10-18 17:14:42,096 - feishu_writer - INFO - 成功创建记录: 7530572907333815612
+2025-10-18 17:14:42,401 - feishu_writer - INFO - 处理第 14/23 条记录: 7529103083936156986
+2025-10-18 17:14:45,134 - feishu_writer - INFO - 成功创建记录: 7529103083936156986
+2025-10-18 17:14:45,439 - feishu_writer - INFO - 处理第 15/23 条记录: 7526887680065244474
+2025-10-18 17:14:47,638 - feishu_writer - INFO - 成功创建记录: 7526887680065244474
+2025-10-18 17:14:47,942 - feishu_writer - INFO - 处理第 16/23 条记录: 7526504627225234745
+2025-10-18 17:14:50,066 - feishu_writer - INFO - 成功创建记录: 7526504627225234745
+2025-10-18 17:14:50,371 - feishu_writer - INFO - 处理第 17/23 条记录: 7520929657370807611
+2025-10-18 17:14:52,501 - feishu_writer - INFO - 成功创建记录: 7520929657370807611
+2025-10-18 17:14:52,806 - feishu_writer - INFO - 处理第 18/23 条记录: 7514621534750084409
+2025-10-18 17:14:55,194 - feishu_writer - INFO - 成功创建记录: 7514621534750084409
+2025-10-18 17:14:55,500 - feishu_writer - INFO - 处理第 19/23 条记录: 7513881453705563452
+2025-10-18 17:14:57,767 - feishu_writer - INFO - 成功创建记录: 7513881453705563452
+2025-10-18 17:14:58,072 - feishu_writer - INFO - 处理第 20/23 条记录: 7511664279331491132
+2025-10-18 17:15:00,616 - feishu_writer - INFO - 成功创建记录: 7511664279331491132
+2025-10-18 17:15:00,616 - feishu_writer - INFO - 已处理 20 条记录，暂停1秒避免限流...
+2025-10-18 17:15:01,622 - feishu_writer - INFO - 处理第 21/23 条记录: 7511292181618085179
+2025-10-18 17:15:04,210 - feishu_writer - INFO - 成功创建记录: 7511292181618085179
+2025-10-18 17:15:04,513 - feishu_writer - INFO - 处理第 22/23 条记录: 7508713626854657338
+2025-10-18 17:15:07,401 - feishu_writer - INFO - 成功创建记录: 7508713626854657338
+2025-10-18 17:15:07,704 - feishu_writer - INFO - 处理第 23/23 条记录: 7507202953980153146
+2025-10-18 17:15:10,851 - feishu_writer - INFO - 成功创建记录: 7507202953980153146
+2025-10-18 17:15:11,154 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 17:15:11,155 - feishu_writer - INFO - 总计: 23 条
+2025-10-18 17:15:11,156 - feishu_writer - INFO - 成功: 23 条
+2025-10-18 17:15:11,156 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 17:15:11,157 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 17:15:26,524 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 17:15:26,965 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 17:15:26,965 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tbl3E5txtzjvGKrS)
+2025-10-18 17:15:26,966 - feishu_writer - INFO - 开始批量写入 10 条记录到飞书多维表格...
+2025-10-18 17:15:26,966 - feishu_writer - INFO - 处理第 1/10 条记录: 7153549929326120227
+2025-10-18 17:15:27,508 - feishu_writer - INFO - 记录已存在，跳过: 7153549929326120227
+2025-10-18 17:15:27,509 - feishu_writer - INFO - 处理第 2/10 条记录: 7266740902494833931
+2025-10-18 17:15:28,328 - feishu_writer - INFO - 记录已存在，跳过: 7266740902494833931
+2025-10-18 17:15:28,329 - feishu_writer - INFO - 处理第 3/10 条记录: 7196618597496524067
+2025-10-18 17:15:29,149 - feishu_writer - INFO - 记录已存在，跳过: 7196618597496524067
+2025-10-18 17:15:29,149 - feishu_writer - INFO - 处理第 4/10 条记录: 7559922055354846521
+2025-10-18 17:15:29,743 - feishu_writer - INFO - 记录已存在，跳过: 7559922055354846521
+2025-10-18 17:15:29,744 - feishu_writer - INFO - 处理第 5/10 条记录: 7557668494435732795
+2025-10-18 17:15:30,384 - feishu_writer - INFO - 记录已存在，跳过: 7557668494435732795
+2025-10-18 17:15:30,385 - feishu_writer - INFO - 处理第 6/10 条记录: 7553588363032005946
+2025-10-18 17:15:30,987 - feishu_writer - INFO - 记录已存在，跳过: 7553588363032005946
+2025-10-18 17:15:30,988 - feishu_writer - INFO - 处理第 7/10 条记录: 7552474106132090171
+2025-10-18 17:15:31,623 - feishu_writer - INFO - 记录已存在，跳过: 7552474106132090171
+2025-10-18 17:15:31,623 - feishu_writer - INFO - 处理第 8/10 条记录: 7550994775403416891
+2025-10-18 17:15:32,236 - feishu_writer - INFO - 记录已存在，跳过: 7550994775403416891
+2025-10-18 17:15:32,236 - feishu_writer - INFO - 处理第 9/10 条记录: 7547281170661805369
+2025-10-18 17:15:33,045 - feishu_writer - INFO - 记录已存在，跳过: 7547281170661805369
+2025-10-18 17:15:33,045 - feishu_writer - INFO - 处理第 10/10 条记录: 7543950832598797625
+2025-10-18 17:15:33,605 - feishu_writer - INFO - 记录已存在，跳过: 7543950832598797625
+2025-10-18 17:15:33,605 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 17:15:33,606 - feishu_writer - INFO - 总计: 10 条
+2025-10-18 17:15:33,607 - feishu_writer - INFO - 成功: 0 条
+2025-10-18 17:15:33,607 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 17:15:33,607 - feishu_writer - INFO - 跳过: 10 条
+2025-10-18 23:07:54,772 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 23:07:55,151 - feishu_writer - INFO - 发现 1 个飞书表格
+2025-10-18 23:07:55,151 - feishu_writer - INFO - 表格 抖音视频数据 不存在，开始创建...
+2025-10-18 23:07:56,148 - feishu_writer - INFO - 成功创建飞书表格: 抖音视频数据 (ID: tblAnxMjXlbWpbIx)
+2025-10-18 23:07:56,148 - feishu_writer - INFO - 成功创建表格: 抖音视频数据 (ID: tblAnxMjXlbWpbIx)
+2025-10-18 23:07:56,148 - feishu_writer - INFO - 开始批量写入 3 条记录到飞书多维表格...
+2025-10-18 23:07:56,148 - feishu_writer - INFO - 处理第 1/3 条记录: 7559886492189904162
+2025-10-18 23:07:58,256 - feishu_writer - INFO - 成功创建记录: 7559886492189904162
+2025-10-18 23:07:58,561 - feishu_writer - INFO - 处理第 2/3 条记录: 7559872872840285455
+2025-10-18 23:08:00,593 - feishu_writer - INFO - 成功创建记录: 7559872872840285455
+2025-10-18 23:08:00,894 - feishu_writer - INFO - 处理第 3/3 条记录: 7559856316282375459
+2025-10-18 23:08:03,180 - feishu_writer - INFO - 成功创建记录: 7559856316282375459
+2025-10-18 23:08:03,485 - feishu_writer - INFO - 批量写入完成:
+2025-10-18 23:08:03,486 - feishu_writer - INFO - 总计: 3 条
+2025-10-18 23:08:03,486 - feishu_writer - INFO - 成功: 3 条
+2025-10-18 23:08:03,486 - feishu_writer - INFO - 失败: 0 条
+2025-10-18 23:08:03,486 - feishu_writer - INFO - 跳过: 0 条
+2025-10-18 23:08:14,562 - feishu_writer - INFO - 成功连接到国内飞书多维表格
+2025-10-18 23:08:15,374 - feishu_writer - INFO - 检测到表格字段不足，尝试确保表格存在...
+2025-10-18 23:08:15,720 - feishu_writer - INFO - 发现 2 个飞书表格
+2025-10-18 23:08:15,721 - feishu_writer - INFO - 找到现有表格: 抖音视频数据 (ID: tblAnxMjXlbWpbIx)
+2025-10-18 23:08:16,177 - feishu_writer - INFO - 更新后的可用字段: ['aweme_id', 'desc', 'create_time', 'author_nickname', 'author_uid', 'digg_count', 'comment_count', 'collect_count', 'share_count', 'play_count', 'video_url', 'cover_url', 'duration', 'sync_time']
