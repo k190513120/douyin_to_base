@@ -93,14 +93,37 @@ class DouyinScraper:
                 print(f"[DEBUG] 请求URL: {url}")
                 print(f"[DEBUG] uifid: {self.uifid}")
                 
+                # 打印完整的请求headers
+                print(f"[DEBUG] 完整请求Headers:")
+                for key, value in self.session.headers.items():
+                    print(f"  {key}: {value}")
+                
                 response = self.session.get(url, params=params, timeout=30)
                 print(f"[DEBUG] HTTP状态码: {response.status_code}")
+                
+                # 打印响应headers
+                print(f"[DEBUG] 响应Headers:")
+                for key, value in response.headers.items():
+                    print(f"  {key}: {value}")
+                
+                # 打印响应内容的详细信息
+                response_text = response.text
+                print(f"[DEBUG] 响应内容长度: {len(response_text)}")
+                print(f"[DEBUG] 响应内容类型: {type(response_text)}")
+                print(f"[DEBUG] 响应内容（前500字符）: '{response_text[:500]}'")
+                print(f"[DEBUG] 响应内容（后100字符）: '{response_text[-100:]}'")
+                
+                # 检查响应的编码
+                print(f"[DEBUG] 响应编码: {response.encoding}")
+                print(f"[DEBUG] 响应apparent_encoding: {response.apparent_encoding}")
                 
                 response.raise_for_status()
                 
                 # 检查响应内容是否为空
-                if not response.text.strip():
+                if not response_text.strip():
                     print(f"[WARNING] 响应内容为空，尝试第 {attempt + 1}/{retry_count} 次")
+                    print(f"[DEBUG] 空响应的原始bytes: {response.content}")
+                    print(f"[DEBUG] 空响应的状态: response.ok={response.ok}, response.reason='{response.reason}'")
                     if attempt < retry_count - 1:
                         time.sleep(2 ** attempt)  # 指数退避
                         continue
@@ -112,7 +135,8 @@ class DouyinScraper:
                     data = response.json()
                 except ValueError as e:
                     print(f"[ERROR] JSON解析失败: {e}")
-                    print(f"[DEBUG] 响应内容前200字符: {response.text[:200]}")
+                    print(f"[DEBUG] 响应内容前200字符: {response_text[:200]}")
+                    print(f"[DEBUG] 响应内容的repr: {repr(response_text[:200])}")
                     if attempt < retry_count - 1:
                         print(f"等待 {2 ** attempt} 秒后重试...")
                         time.sleep(2 ** attempt)
