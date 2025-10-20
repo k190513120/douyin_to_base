@@ -148,7 +148,7 @@ def main():
     try:
         # 初始化抖音抓取器
         print(f"\n1. 初始化抖音抓取器...")
-        scraper = DouyinScraper(config['douyin_api_base_url'])
+        scraper = DouyinScraper()  # 移除错误的参数，使用默认的uifid
         
         # 抓取视频信息
         print(f"2. 开始抓取视频信息...")

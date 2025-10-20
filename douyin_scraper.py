@@ -13,8 +13,11 @@ class DouyinScraper:
         self.session = requests.Session()
         self.session.headers.update({
             'accept': 'application/json, text/plain, */*',
-            'accept-language': 'zh-CN,zh;q=0.9',
+            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'cache-control': 'no-cache',
+            'pragma': 'no-cache',
             'priority': 'u=1, i',
+            'referer': 'https://www.douyin.com/',
             'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"macOS"',
@@ -22,16 +25,31 @@ class DouyinScraper:
             'sec-fetch-mode': 'cors',
             'sec-fetch-site': 'same-origin',
             'uifid': self.uifid,
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+            'x-requested-with': 'XMLHttpRequest'
         })
     
     def _get_default_uifid(self) -> str:
         """
         获取默认的uifid，可以从环境变量或配置文件中读取
-        如果没有配置，使用用户提供的uifid
+        如果没有配置，使用动态生成的uifid
         """
         import os
-        return os.getenv('DOUYIN_UIFID', '9e5c45806baed1121aef2e4ebdb50ae0783a7b9267143d29acaade7dde1bacd57f38b71be96aa0bff47a3f2074178a779ca220a333bd33fcf42e1ba5b397a819cbec2844ea96dc486dcf6360403bbf76f0291d77a3d69a29e56c0e467bbe9c0e46337ece433506542ae444dc2127f40bbe70a4d3f18f02f002a4309ca11a256633fa839151f3a7c4f8b9232ad2335937d7d15091c9acff5412f86dd1821e150ecbab849028d577aee3a88780b0c05199')
+        import uuid
+        import hashlib
+        
+        # 首先尝试从环境变量获取
+        env_uifid = os.getenv('DOUYIN_UIFID')
+        if env_uifid and len(env_uifid) < 50:  # 确保不是错误的长字符串
+            return env_uifid
+        
+        # 生成一个基于时间戳和随机数的短uifid
+        import time
+        timestamp = str(int(time.time()))
+        random_str = str(uuid.uuid4()).replace('-', '')[:8]
+        uifid = hashlib.md5(f"{timestamp}{random_str}".encode()).hexdigest()[:16]
+        
+        return uifid
     
     def extract_sec_user_id(self, douyin_url: str) -> Optional[str]:
         """
@@ -63,54 +81,94 @@ class DouyinScraper:
             print(f"提取sec_user_id时出错: {e}")
             return None
     
-    def fetch_user_videos(self, sec_user_id: str, max_cursor: int = 0, count: int = 20) -> Dict:
+    def fetch_user_videos(self, sec_user_id: str, max_cursor: int = 0, count: int = 20, retry_count: int = 3) -> Dict:
         """
         使用抖音官方接口获取用户的视频列表
         """
-        try:
-            url = self.douyin_api_url
-            
-            params = {
-                "aid": "6383",
-                "sec_user_id": sec_user_id,
-                "max_cursor": max_cursor,
-                "publish_video_strategy_type": "2",
-                "count": str(count)
-            }
-            
-            print(f"[DEBUG] 爬虫请求参数: {params}")
-            print(f"[DEBUG] 请求URL: {url}")
-            print(f"[DEBUG] uifid: {self.uifid}")
-            
-            response = self.session.get(url, params=params, timeout=30)
-            print(f"[DEBUG] HTTP状态码: {response.status_code}")
-            
-            response.raise_for_status()
-            
-            data = response.json()
-            
-            print(f"[DEBUG] 爬虫响应状态码: {data.get('status_code', 'N/A')}")
-            print(f"[DEBUG] 响应数据键: {list(data.keys())}")
-            
-            # 抖音官方接口的响应结构
-            if data.get('status_code') != 0:
-                print(f"抖音接口返回错误: {data}")
-                return {}
-            
-            # 添加详细的调试信息
-            aweme_list = data.get('aweme_list', [])
-            has_more = data.get('has_more', 0)
-            max_cursor_new = data.get('max_cursor', 0)
-            
-            print(f"[DEBUG] 返回视频数量: {len(aweme_list)}")
-            print(f"[DEBUG] has_more: {has_more}")
-            print(f"[DEBUG] max_cursor: {max_cursor_new}")
-            
-            return data
-            
-        except Exception as e:
-            print(f"获取视频列表时出错: {e}")
-            return {}
+        for attempt in range(retry_count):
+            try:
+                url = self.douyin_api_url
+                
+                params = {
+                    "aid": "6383",
+                    "sec_user_id": sec_user_id,
+                    "max_cursor": max_cursor,
+                    "publish_video_strategy_type": "2",
+                    "count": str(count)
+                }
+                
+                print(f"[DEBUG] 爬虫请求参数: {params}")
+                print(f"[DEBUG] 请求URL: {url}")
+                print(f"[DEBUG] uifid: {self.uifid}")
+                
+                response = self.session.get(url, params=params, timeout=30)
+                print(f"[DEBUG] HTTP状态码: {response.status_code}")
+                
+                response.raise_for_status()
+                
+                # 检查响应内容是否为空
+                if not response.text.strip():
+                    print(f"[WARNING] 响应内容为空，尝试第 {attempt + 1}/{retry_count} 次")
+                    if attempt < retry_count - 1:
+                        time.sleep(2 ** attempt)  # 指数退避
+                        continue
+                    else:
+                        print("多次尝试后仍然返回空响应")
+                        return {}
+                
+                try:
+                    data = response.json()
+                except ValueError as e:
+                    print(f"[ERROR] JSON解析失败: {e}")
+                    print(f"[DEBUG] 响应内容前200字符: {response.text[:200]}")
+                    if attempt < retry_count - 1:
+                        print(f"等待 {2 ** attempt} 秒后重试...")
+                        time.sleep(2 ** attempt)
+                        continue
+                    else:
+                        return {}
+                
+                print(f"[DEBUG] 爬虫响应状态码: {data.get('status_code', 'N/A')}")
+                print(f"[DEBUG] 响应数据键: {list(data.keys())}")
+                
+                # 抖音官方接口的响应结构
+                if data.get('status_code') != 0:
+                    print(f"抖音接口返回错误: {data}")
+                    if attempt < retry_count - 1:
+                        print(f"等待 {2 ** attempt} 秒后重试...")
+                        time.sleep(2 ** attempt)
+                        continue
+                    else:
+                        return {}
+                
+                # 添加详细的调试信息
+                aweme_list = data.get('aweme_list', [])
+                has_more = data.get('has_more', 0)
+                max_cursor_new = data.get('max_cursor', 0)
+                
+                print(f"[DEBUG] 返回视频数量: {len(aweme_list)}")
+                print(f"[DEBUG] has_more: {has_more}")
+                print(f"[DEBUG] max_cursor: {max_cursor_new}")
+                
+                return data
+                
+            except requests.exceptions.RequestException as e:
+                print(f"[ERROR] 网络请求失败 (尝试 {attempt + 1}/{retry_count}): {e}")
+                if attempt < retry_count - 1:
+                    print(f"等待 {2 ** attempt} 秒后重试...")
+                    time.sleep(2 ** attempt)
+                else:
+                    print("所有重试尝试都失败了")
+                    return {}
+            except Exception as e:
+                print(f"获取视频列表时出错: {e}")
+                if attempt < retry_count - 1:
+                    print(f"等待 {2 ** attempt} 秒后重试...")
+                    time.sleep(2 ** attempt)
+                else:
+                    return {}
+        
+        return {}
     
     def fetch_all_videos(self, douyin_url: str, max_videos: int = 1000) -> List[Dict]:
         """
