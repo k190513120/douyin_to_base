@@ -42,7 +42,16 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        echo "=== 安装依赖前的包列表 ==="
+        pip list
+        echo "=== 开始安装requirements.txt ==="
         pip install -r requirements.txt
+        echo "=== 安装依赖后的包列表 ==="
+        pip list
+        echo "=== 测试关键模块导入 ==="
+        python -c "import requests; print('✓ requests导入成功')"
+        python -c "import dotenv; print('✓ dotenv导入成功')"
+        python -c "from douyin_scraper import DouyinScraper; print('✓ DouyinScraper导入成功')"
     
     - name: Create .env file
       run: |
@@ -66,11 +75,27 @@ jobs:
     - name: Run douyin sync (manual trigger)
       if: github.event_name == 'workflow_dispatch'
       run: |
+        echo "=== 运行前环境检查 ==="
+        python --version
+        which python
+        echo "当前目录: $(pwd)"
+        ls -la
+        echo "=== 环境变量 ==="
+        env | grep -E "(DOUYIN|MAX_VIDEOS|FEISHU)" || echo "未找到相关环境变量"
+        echo "=== 开始运行主脚本 ==="
         python main.py --url "${{ github.event.inputs.douyin_url }}" --max-videos "${{ github.event.inputs.max_videos }}"
     
     - name: Run douyin sync (API trigger)
       if: github.event_name == 'repository_dispatch'
       run: |
+        echo "=== 运行前环境检查 ==="
+        python --version
+        which python
+        echo "当前目录: $(pwd)"
+        ls -la
+        echo "=== 环境变量 ==="
+        env | grep -E "(DOUYIN|MAX_VIDEOS|FEISHU)" || echo "未找到相关环境变量"
+        echo "=== 开始运行主脚本 ==="
         DOUYIN_URL="${{ github.event.client_payload.douyin_url }}"
         MAX_VIDEOS="${{ github.event.client_payload.max_videos }}"
         if [ -z "$MAX_VIDEOS" ]; then
