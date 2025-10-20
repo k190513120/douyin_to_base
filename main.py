@@ -4,7 +4,15 @@
 import os
 import sys
 import argparse
-from dotenv import load_dotenv, find_dotenv
+
+# 尝试导入dotenv，如果失败则跳过
+try:
+    from dotenv import load_dotenv, find_dotenv
+    DOTENV_AVAILABLE = True
+except ImportError:
+    DOTENV_AVAILABLE = False
+    print("Warning: python-dotenv not available, using environment variables directly")
+
 from douyin_scraper import DouyinScraper
 from feishu_writer import FeishuWriter
 
@@ -13,7 +21,8 @@ def load_config():
     """
     加载配置信息
     """
-    load_dotenv(find_dotenv())
+    if DOTENV_AVAILABLE:
+        load_dotenv(find_dotenv())
     
     config = {
         'app_token': os.environ.get('FEISHU_APP_TOKEN') or os.environ.get('APP_TOKEN'),

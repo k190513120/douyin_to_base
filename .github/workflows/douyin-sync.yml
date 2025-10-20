@@ -82,7 +82,14 @@ jobs:
         ls -la
         echo "=== 环境变量 ==="
         env | grep -E "(DOUYIN|MAX_VIDEOS|FEISHU)" || echo "未找到相关环境变量"
+        echo "=== GitHub Actions 环境检测 ==="
+        echo "GITHUB_ACTIONS=${GITHUB_ACTIONS}"
+        echo "RUNNER_OS=${RUNNER_OS}"
+        echo "RUNNER_ARCH=${RUNNER_ARCH}"
+        echo "=== 网络连接测试 ==="
+        curl -I https://www.douyin.com/ || echo "无法连接到抖音"
         echo "=== 开始运行主脚本 ==="
+        export GITHUB_ACTIONS=true
         python main.py --url "${{ github.event.inputs.douyin_url }}" --max-videos "${{ github.event.inputs.max_videos }}"
     
     - name: Run douyin sync (API trigger)
@@ -95,7 +102,14 @@ jobs:
         ls -la
         echo "=== 环境变量 ==="
         env | grep -E "(DOUYIN|MAX_VIDEOS|FEISHU)" || echo "未找到相关环境变量"
+        echo "=== GitHub Actions 环境检测 ==="
+        echo "GITHUB_ACTIONS=${GITHUB_ACTIONS}"
+        echo "RUNNER_OS=${RUNNER_OS}"
+        echo "RUNNER_ARCH=${RUNNER_ARCH}"
+        echo "=== 网络连接测试 ==="
+        curl -I https://www.douyin.com/ || echo "无法连接到抖音"
         echo "=== 开始运行主脚本 ==="
+        export GITHUB_ACTIONS=true
         DOUYIN_URL="${{ github.event.client_payload.douyin_url }}"
         MAX_VIDEOS="${{ github.event.client_payload.max_videos }}"
         if [ -z "$MAX_VIDEOS" ]; then

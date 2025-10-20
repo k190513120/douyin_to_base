@@ -1,6 +1,8 @@
 import requests
 import re
 import time
+import random
+import os
 from typing import List, Dict, Optional
 from urllib.parse import urlparse, parse_qs
 
@@ -11,6 +13,18 @@ class DouyinScraper:
         self.douyin_api_url = "https://www.douyin.com/aweme/v1/web/aweme/post/"
         self.uifid = uifid or self._get_default_uifid()
         self.session = requests.Session()
+        
+        # 检测是否在 GitHub Actions 环境中
+        self.is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
+        
+        # 根据环境选择不同的请求策略
+        if self.is_github_actions:
+            self._setup_github_actions_headers()
+        else:
+            self._setup_default_headers()
+    
+    def _setup_default_headers(self):
+        """设置默认的请求头（本地环境）"""
         self.session.headers.update({
             'accept': 'application/json, text/plain, */*',
             'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
@@ -28,6 +42,75 @@ class DouyinScraper:
             'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
             'x-requested-with': 'XMLHttpRequest'
         })
+    
+    def _setup_github_actions_headers(self):
+        """设置 GitHub Actions 环境的请求头（更真实的浏览器特征）"""
+        # 随机选择一个真实的 User-Agent
+        user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15'
+        ]
+        
+        selected_ua = random.choice(user_agents)
+        
+        # 根据选择的 User-Agent 设置对应的浏览器特征
+        if 'Chrome' in selected_ua:
+            if 'Windows' in selected_ua:
+                platform = '"Windows"'
+                sec_ch_ua = '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"'
+            else:
+                platform = '"macOS"'
+                sec_ch_ua = '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"'
+        elif 'Firefox' in selected_ua:
+            platform = '"Windows"' if 'Windows' in selected_ua else '"macOS"'
+            sec_ch_ua = None  # Firefox 不发送 sec-ch-ua
+        else:  # Safari
+            platform = '"macOS"'
+            sec_ch_ua = None  # Safari 不发送 sec-ch-ua
+        
+        headers = {
+            'accept': 'application/json, text/plain, */*',
+            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+            'cache-control': 'no-cache',
+            'pragma': 'no-cache',
+            'referer': 'https://www.douyin.com/',
+            'user-agent': selected_ua,
+            'uifid': self.uifid,
+        }
+        
+        # 只有 Chrome 浏览器才添加 sec-ch-* 头
+        if sec_ch_ua:
+            headers.update({
+                'sec-ch-ua': sec_ch_ua,
+                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-platform': platform,
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-origin',
+            })
+        
+        # Firefox 和 Safari 的特殊处理
+        if 'Firefox' in selected_ua:
+            headers['accept'] = 'application/json, text/javascript, */*; q=0.01'
+        
+        self.session.headers.update(headers)
+        print(f"[GitHub Actions] 使用 User-Agent: {selected_ua}")
+        print(f"[GitHub Actions] 平台: {platform}")
+    
+    def _add_random_delay(self):
+        """添加随机延迟以避免被检测"""
+        if self.is_github_actions:
+            # GitHub Actions 环境中使用更长的延迟
+            delay = random.uniform(2.0, 5.0)
+        else:
+            # 本地环境使用较短延迟
+            delay = random.uniform(0.5, 2.0)
+        
+        print(f"[DEBUG] 随机延迟 {delay:.2f} 秒...")
+        time.sleep(delay)
     
     def _get_default_uifid(self) -> str:
         """
@@ -98,6 +181,10 @@ class DouyinScraper:
                 for key, value in self.session.headers.items():
                     print(f"  {key}: {value}")
                 
+                # 在请求前添加随机延迟
+                if attempt > 0:
+                    self._add_random_delay()
+                
                 response = self.session.get(url, params=params, timeout=30)
                 print(f"[DEBUG] HTTP状态码: {response.status_code}")
                 
@@ -121,11 +208,25 @@ class DouyinScraper:
                 
                 # 检查响应内容是否为空
                 if not response_text.strip():
-                    print(f"[WARNING] 响应内容为空，尝试第 {attempt + 1}/{retry_count} 次")
+                    print(f"Warning:  响应内容为空，尝试第 {attempt + 1}/{retry_count} 次")
                     print(f"[DEBUG] 空响应的原始bytes: {response.content}")
                     print(f"[DEBUG] 空响应的状态: response.ok={response.ok}, response.reason='{response.reason}'")
+                    
+                    # GitHub Actions 环境下的特殊处理
+                    if self.is_github_actions:
+                        print(f"[GitHub Actions] 检测到空响应，可能被反爬虫系统拦截")
+                        print(f"[GitHub Actions] 尝试更换请求策略...")
+                        # 重新设置请求头
+                        self._setup_github_actions_headers()
+                        # 增加更长的延迟
+                        delay = random.uniform(5.0, 10.0)
+                        print(f"[GitHub Actions] 等待 {delay:.2f} 秒后重试...")
+                        time.sleep(delay)
+                    else:
+                        if attempt < retry_count - 1:
+                            time.sleep(2 ** attempt)  # 指数退避
+                    
                     if attempt < retry_count - 1:
-                        time.sleep(2 ** attempt)  # 指数退避
                         continue
                     else:
                         print("多次尝试后仍然返回空响应")
