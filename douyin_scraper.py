@@ -56,16 +56,33 @@ class DouyinScraper:
                 'count': count
             }
             
+            print(f"[DEBUG] API请求参数: {params}")
+            
             response = self.session.get(url, params=params)
             response.raise_for_status()
             
             data = response.json()
             
+            print(f"[DEBUG] API响应状态码: {data.get('code')}")
+            print(f"[DEBUG] API响应消息: {data.get('message', 'N/A')}")
+            
             if data.get('code') != 200:
                 print(f"API返回错误: {data}")
                 return {}
             
-            return data.get('data', {})
+            result_data = data.get('data', {})
+            
+            # 添加详细的调试信息
+            aweme_list = result_data.get('aweme_list', [])
+            has_more = result_data.get('has_more', 0)
+            max_cursor_new = result_data.get('max_cursor', 0)
+            
+            print(f"[DEBUG] 返回视频数量: {len(aweme_list)}")
+            print(f"[DEBUG] has_more: {has_more}")
+            print(f"[DEBUG] max_cursor: {max_cursor_new}")
+            print(f"[DEBUG] 完整响应数据键: {list(result_data.keys())}")
+            
+            return result_data
             
         except Exception as e:
             print(f"获取视频列表时出错: {e}")
@@ -103,8 +120,17 @@ class DouyinScraper:
             
             aweme_list = data.get('aweme_list', [])
             if not aweme_list:
-                print("没有更多视频数据，停止抓取")
-                break
+                print(f"[WARNING] 本页没有视频数据，但has_more={data.get('has_more', 0)}")
+                # 如果API说还有更多数据，但本页为空，可能是临时问题，尝试继续
+                if data.get('has_more', 0) == 1:
+                    print("API显示还有更多数据，尝试继续获取下一页...")
+                    max_cursor = data.get('max_cursor', max_cursor)
+                    has_more = True
+                    time.sleep(2)  # 增加延迟避免请求过快
+                    continue
+                else:
+                    print("没有更多视频数据，停止抓取")
+                    break
             
             print(f"本页获取到 {len(aweme_list)} 个视频")
             
@@ -117,10 +143,28 @@ class DouyinScraper:
                     all_videos.append(video_info)
             
             # 更新游标和分页信息
-            max_cursor = data.get('max_cursor', 0)
+            new_max_cursor = data.get('max_cursor', 0)
             has_more = data.get('has_more', 0) == 1
             
+            # 检查max_cursor是否有效更新
+            if new_max_cursor == max_cursor and has_more:
+                print(f"[WARNING] max_cursor没有更新 ({max_cursor})，但API显示还有更多数据")
+                # 尝试强制更新cursor，避免无限循环
+                if len(aweme_list) > 0:
+                    # 使用最后一个视频的时间戳作为cursor
+                    last_video = aweme_list[-1]
+                    create_time = last_video.get('create_time', 0)
+                    if create_time > 0:
+                        new_max_cursor = create_time * 1000  # 转换为毫秒
+                        print(f"[INFO] 使用最后视频时间戳作为cursor: {new_max_cursor}")
+            
+            max_cursor = new_max_cursor
+            
             print(f"当前已获取 {len(all_videos)} 个视频，has_more: {has_more}, max_cursor: {max_cursor}")
+            
+            # 添加请求间隔，避免被限流
+            if has_more and len(all_videos) < max_videos:
+                time.sleep(1)
             
             # 如果已经达到目标数量，停止抓取
             if len(all_videos) >= max_videos:
@@ -213,7 +257,7 @@ if __name__ == "__main__":
     # 示例抖音链接
     test_url = "https://www.douyin.com/user/MS4wLjABAAAANXSltcLCzDGmdNFI2Q_QixVTr67NiYzjKOIP5s03CAE"
     
-    videos = scraper.fetch_all_videos(test_url, max_videos=5)
+    videos = scraper.fetch_all_videos(test_url, max_videos=25)
     
     for i, video in enumerate(videos, 1):
         print(f"\n视频 {i}:")
