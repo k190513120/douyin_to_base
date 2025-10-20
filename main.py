@@ -4,15 +4,7 @@
 import os
 import sys
 import argparse
-
-# 尝试导入dotenv，如果失败则跳过
-try:
-    from dotenv import load_dotenv, find_dotenv
-    DOTENV_AVAILABLE = True
-except ImportError:
-    DOTENV_AVAILABLE = False
-    print("Warning: python-dotenv not available, using environment variables directly")
-
+from dotenv import load_dotenv, find_dotenv
 from douyin_scraper import DouyinScraper
 from feishu_writer import FeishuWriter
 
@@ -21,8 +13,7 @@ def load_config():
     """
     加载配置信息
     """
-    if DOTENV_AVAILABLE:
-        load_dotenv(find_dotenv())
+    load_dotenv(find_dotenv())
     
     config = {
         'app_token': os.environ.get('FEISHU_APP_TOKEN') or os.environ.get('APP_TOKEN'),
@@ -157,7 +148,7 @@ def main():
     try:
         # 初始化抖音抓取器
         print(f"\n1. 初始化抖音抓取器...")
-        scraper = DouyinScraper()  # 移除错误的参数，使用默认的uifid
+        scraper = DouyinScraper(config['douyin_api_base_url'])
         
         # 抓取视频信息
         print(f"2. 开始抓取视频信息...")

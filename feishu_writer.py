@@ -108,10 +108,8 @@ class DouyinDataTypeMapper:
         'collect_count': 'Number',
         
         # 媒体信息
-        'video_url': 'Url',  # 保持向后兼容
         'video_play_addr': 'Url',
         'cover_url': 'Url',
-        'play_url': 'Url',  # 新增播放链接字段
         'duration': 'Number',
         
         # 系统字段
@@ -628,7 +626,7 @@ class FeishuWriter:
             'collect_count': video_info.get('collect_count', 0) or video_info.get('statistics', {}).get('collect_count', 0),
             'share_count': video_info.get('share_count', 0) or video_info.get('statistics', {}).get('share_count', 0),
             'play_count': video_info.get('play_count', 0) or video_info.get('statistics', {}).get('play_count', 0),
-            'video_url': video_info.get('play_url', '') or video_info.get('video_url', '') or self._extract_video_url(video_info),
+            'video_url': video_info.get('video_url', '') or self._extract_video_url(video_info),
             'cover_url': video_info.get('cover_url', '') or self._extract_cover_url(video_info),
             'duration': video_info.get('duration', 0) or video_info.get('video', {}).get('duration', 0),
             'sync_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
