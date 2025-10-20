@@ -31,25 +31,17 @@ class DouyinScraper:
     
     def _get_default_uifid(self) -> str:
         """
-        获取默认的uifid，可以从环境变量或配置文件中读取
-        如果没有配置，使用动态生成的uifid
+        获取默认的uifid，使用固定值
         """
         import os
-        import uuid
-        import hashlib
         
         # 首先尝试从环境变量获取
         env_uifid = os.getenv('DOUYIN_UIFID')
-        if env_uifid and len(env_uifid) < 50:  # 确保不是错误的长字符串
+        if env_uifid and len(env_uifid) > 50:  # 确保是正确的长uifid字符串
             return env_uifid
         
-        # 生成一个基于时间戳和随机数的短uifid
-        import time
-        timestamp = str(int(time.time()))
-        random_str = str(uuid.uuid4()).replace('-', '')[:8]
-        uifid = hashlib.md5(f"{timestamp}{random_str}".encode()).hexdigest()[:16]
-        
-        return uifid
+        # 使用固定的uifid值
+        return "9e5c45806baed1121aef2e4ebdb50ae0783a7b9267143d29acaade7dde1bacd57f38b71be96aa0bff47a3f2074178a779ca220a333bd33fcf42e1ba5b397a819cbec2844ea96dc486dcf6360403bbf76f0291d77a3d69a29e56c0e467bbe9c0e46337ece433506542ae444dc2127f40bbe70a4d3f18f02f002a4309ca11a256633fa839151f3a7c4f8b9232ad2335937d7d15091c9acff5412f86dd1821e150ecbab849028d577aee3a88780b0c05199"
     
     def extract_sec_user_id(self, douyin_url: str) -> Optional[str]:
         """
