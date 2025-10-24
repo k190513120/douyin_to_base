@@ -199,6 +199,7 @@ class DouyinScraper:
             comment_count = statistics.get('comment_count', 0)  # 评论数
             share_count = statistics.get('share_count', 0)  # 分享数
             play_count = statistics.get('play_count', 0)  # 播放数
+            collect_count = statistics.get('collect_count', 0)  # 收藏数
             
             # 获取视频URL
             video_url = ''
@@ -236,6 +237,7 @@ class DouyinScraper:
                 'comment_count': comment_count,
                 'share_count': share_count,
                 'play_count': play_count,
+                'collect_count': collect_count,
                 'video_url': video_url,
                 'cover_url': cover_url,
                 'duration': duration
