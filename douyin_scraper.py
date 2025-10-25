@@ -144,7 +144,7 @@ class DouyinScraper:
     
     def fetch_all_videos(self, douyin_url: str, max_videos: int = 1000) -> List[Dict]:
         """
-        获取用户的视频信息 - 简化版本，直接一次性获取指定数量
+        获取用户的视频信息 - 使用分页逻辑，根据用户指定数量智能获取
         """
         sec_user_id = self.extract_sec_user_id(douyin_url)
         if not sec_user_id:
@@ -152,30 +152,78 @@ class DouyinScraper:
         
         print(f"开始抓取用户视频，sec_user_id: {sec_user_id}")
         print(f"目标获取视频数量: {max_videos}")
-        print(f"使用简化逻辑，一次性请求 {max_videos} 个视频...")
+        print(f"使用分页逻辑，每次最多获取40条...")
         
-        # 直接使用用户指定的数量作为count参数，一次性获取
-        data = self.fetch_user_videos(sec_user_id, max_cursor=0, count=max_videos)
-        
-        if not data:
-            print("API返回空数据")
-            return []
-        
-        aweme_list = data.get('aweme_list', [])
-        if not aweme_list:
-            print("没有获取到视频数据")
-            return []
-        
-        print(f"API返回 {len(aweme_list)} 个视频")
-        
-        # 处理视频信息
         all_videos = []
-        for video in aweme_list:
-            video_info = self.parse_video_info(video)
-            if video_info:
-                all_videos.append(video_info)
+        max_cursor = 0
+        page_num = 1
         
-        print(f"成功解析 {len(all_videos)} 个视频信息")
+        while len(all_videos) < max_videos:
+            # 计算本次请求的数量，每次最多40条
+            remaining_videos = max_videos - len(all_videos)
+            count = min(40, remaining_videos)
+            
+            print(f"\n--- 第 {page_num} 页 ---")
+            print(f"当前已获取: {len(all_videos)} 个视频")
+            print(f"本次请求: {count} 个视频")
+            print(f"max_cursor: {max_cursor}")
+            
+            # 获取当前页数据
+            data = self.fetch_user_videos(sec_user_id, max_cursor=max_cursor, count=count)
+            
+            if not data:
+                print("API返回空数据，停止获取")
+                break
+            
+            aweme_list = data.get('aweme_list', [])
+            if not aweme_list:
+                print("没有获取到视频数据，停止获取")
+                break
+            
+            print(f"本页获取到 {len(aweme_list)} 个视频")
+            
+            # 处理当前页的视频信息
+            page_videos = []
+            for video in aweme_list:
+                video_info = self.parse_video_info(video)
+                if video_info:
+                    page_videos.append(video_info)
+            
+            all_videos.extend(page_videos)
+            print(f"本页成功解析 {len(page_videos)} 个视频")
+            print(f"累计获取 {len(all_videos)} 个视频")
+            
+            # 检查是否还有更多数据
+            has_more = data.get('has_more', 0)
+            new_max_cursor = data.get('max_cursor', 0)
+            
+            print(f"has_more: {has_more}")
+            print(f"new_max_cursor: {new_max_cursor}")
+            
+            # 如果没有更多数据或者已经获取足够的视频，停止
+            if has_more != 1 or new_max_cursor == max_cursor:
+                print("没有更多数据或cursor未更新，停止获取")
+                break
+            
+            # 更新cursor准备下一页
+            max_cursor = new_max_cursor
+            page_num += 1
+            
+            # 如果已经获取足够的视频，停止
+            if len(all_videos) >= max_videos:
+                print(f"已获取足够的视频数量: {len(all_videos)}")
+                break
+            
+            # 添加延迟避免请求过快
+            time.sleep(1)
+        
+        # 确保不超过用户指定的数量
+        if len(all_videos) > max_videos:
+            all_videos = all_videos[:max_videos]
+            print(f"截取到指定数量: {max_videos}")
+        
+        print(f"\n=== 最终结果 ===")
+        print(f"总共获取到 {len(all_videos)} 个视频")
         return all_videos
     
     def parse_video_info(self, video_data: Dict) -> Dict:
