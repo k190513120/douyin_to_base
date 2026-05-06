@@ -19,8 +19,8 @@ def load_config():
         'app_token': os.environ.get('FEISHU_APP_TOKEN') or os.environ.get('APP_TOKEN'),
         'personal_base_token': os.environ.get('FEISHU_PERSONAL_BASE_TOKEN') or os.environ.get('PERSONAL_BASE_TOKEN'),
         'table_id': os.environ.get('FEISHU_TABLE_ID') or os.environ.get('TABLE_ID'),
-        'douyin_api_base_url': os.environ.get('DOUYIN_API_BASE_URL', 
-                                            'https://tiktok-api-miaomiaocompany-c35bd5a6.koyeb.app')
+        'douyin_api_base_url': os.environ.get('DOUYIN_API_BASE_URL',
+                                            'https://douyin-api.xiaomiao.win')
     }
     
     return config

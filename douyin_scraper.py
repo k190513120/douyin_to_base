@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 
 
 class DouyinScraper:
-    def __init__(self, api_base_url: str = "https://tiktok-api-miaomiaocompany-c35bd5a6.koyeb.app"):
+    def __init__(self, api_base_url: str = "https://douyin-api.xiaomiao.win"):
         self.api_base_url = api_base_url
         self.session = requests.Session()
         self.session.headers.update({
